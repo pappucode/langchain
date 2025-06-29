@@ -1,20 +1,21 @@
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from typing import TypedDict, Annotated, Optional, Literal
+from pydantic import BaseModel, Field
 
 load_dotenv()
 
 model = ChatOpenAI()
 
 # schema
-class Review(TypedDict):
+class Review(BaseModel):
 
-    key_themes: Annotated[list[str],  "Write down all the key themes discussed in the review in a list"]
-    summary : Annotated[str, "A brief summary of the review"]
-    sentiment: Annotated[Literal["Pos", "Neg"], "Return sentiment of the review either negative, positive or neutral"]
-    pros: Annotated[Optional[list[str]], "Write down all the pros inside a list"]
-    cons: Annotated[Optional[list[str]], "Write down all the cons inside a list"]
-    name: Annotated[Optional[str], "Write the name of the reviewer"]
+    key_themes: list[str] = Field(description="Write down all the key themes discussed in the review in a list")
+    summary : str = Field(description="A brief summary of the review")
+    sentiment: Literal["Pos", "Neg"] = Field(description="Return sentiment of the review either negative, positive or neutral")
+    pros: Optional[list[str]] = Field(default=None, description="Write down all the pros inside a list")
+    cons: Optional[list[str]] = Field(default=None,description="Write down all the cons inside a list")
+    name: Optional[str] = Field(default=None,description="Write the name of the reviewer")
 
 
 structured_model = model.with_structured_output(Review, method="function_calling")
@@ -38,10 +39,8 @@ Review by Pappu Akondo
 
 print(result)
 print(type(result))
-print("Key themes: ",result['key_themes'])
-print("Summary: ", result['summary'])
-print("sentiment: ", result['sentiment'])
-print("Pros ", result['pros'])
-print("Cons:", result['cons'])
-print("Name:", result['name'])
+print("Key themes: ",result.key_themes)  
+print("Names: ",result.name)  
+print("sentiment: ", result.sentiment)
+
 
