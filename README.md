@@ -15,7 +15,7 @@ The `llms/` directory includes:
 - `rag/` - Retrieval-Augmented Generation implementations 
 - `vectorstore/` - Vector DB experiments using Chroma, FAISS, etc.
 
-## 📦 Setup
+## Setup
 
 1. Create a virtual environment:
 python -m venv venv
@@ -40,3 +40,5 @@ pip install -r requirements.txt
 
 API keys are handled securely using `.env` files. Be sure to set:
 OPENAI_API_KEY=sk-xxx...
+GOOGLE_API_KEY = "AIzzz..."
+HF_TOKEN = "hf_sss..."
