@@ -1,0 +1,3790 @@
+[0:00:00] the following is a conversation with
+[0:00:01] demus hasabis
+[0:00:03] ceo and co-founder of deepmind
+[0:00:06] a company that has published and builds
+[0:00:08] some of the most incredible artificial
+[0:00:11] intelligence systems in the history of
+[0:00:13] computing including alfred zero that
+[0:00:16] learned
+[0:00:16] all by itself to play the game of gold
+[0:00:18] better than any human in the world and
+[0:00:21] alpha fold two that solved protein
+[0:00:24] folding
+[0:00:25] both tasks considered nearly impossible
+[0:00:28] for a very long time
+[0:00:31] demus is widely considered to be one of
+[0:00:33] the most brilliant and impactful humans
+[0:00:35] in the history of artificial
+[0:00:37] intelligence and science and engineering
+[0:00:39] in general
+[0:00:41] this was truly an honor and a pleasure
+[0:00:43] for me to finally sit down with him for
+[0:00:46] this conversation and i'm sure we will
+[0:00:48] talk many times again in the future
+[0:00:51] this is the lex friedman podcast to
+[0:00:53] support it please check out our sponsors
+[0:00:55] in the description and now dear friends
+[0:00:58] here's demis
+[0:00:59] hassabis
+[0:01:01] let's start with a bit of a personal
+[0:01:02] question
+[0:01:03] am i an ai program you wrote to
+[0:01:06] interview people until i get good enough
+[0:01:08] to interview you
+[0:01:10] well i'll be impressed if if you were
+[0:01:12] i'd be impressed by myself if you were i
+[0:01:14] don't think we're quite up to that yet
+[0:01:16] but uh maybe you're from the future lex
+[0:01:18] if you did would you tell me is that is
+[0:01:20] that a good thing to tell a language
+[0:01:22] model that's tasked with interviewing
+[0:01:24] that it is in fact um ai maybe we're in
+[0:01:27] a kind of meta turing test uh probably
+[0:01:30] probably it would be a good idea not to
+[0:01:31] tell you so it doesn't change your
+[0:01:33] behavior right this is a kind of
+[0:01:34] heisenberg uncertainty principle
+[0:01:36] situation if i told you you behave
+[0:01:38] differently yeah maybe that's what's
+[0:01:39] happening with us of course this is a
+[0:01:41] benchmark from the future where they
+[0:01:43] replay 2022 as a year before ais were
+[0:01:47] good enough yet and now we want to see
+[0:01:50] is it going to pass exactly
+[0:01:53] if i was such a
+[0:01:55] program would you be able to tell do you
+[0:01:57] think so to the touring test question
+[0:01:59] you've talked about
+[0:02:03] the benchmark for solving intelligence
+[0:02:05] what would be the impressive thing
+[0:02:07] you've talked about winning a nobel
+[0:02:08] prize in a system winning a nobel prize
+[0:02:11] but i still return to the touring test
+[0:02:13] as a compelling test the spirit of the
+[0:02:15] touring test is a compelling test
+[0:02:17] yeah the turing test of course it's been
+[0:02:18] unbelievably influential and turing's
+[0:02:20] one of my all-time heroes but i think if
+[0:02:23] you look back at the 1950 papers
+[0:02:24] original paper and read the original
+[0:02:26] you'll see i don't think he meant it to
+[0:02:28] be a rigorous formal test i think it was
+[0:02:31] more like a thought experiment almost a
+[0:02:33] bit of philosophy he was writing if you
+[0:02:34] look at the style of the paper and you
+[0:02:36] can see he didn't specify it very
+[0:02:38] rigorously so for example he didn't
+[0:02:40] specify the knowledge that the expert or
+[0:02:42] judge would have um not you know how
+[0:02:45] much time would they have to investigate
+[0:02:47] this so these important parameters if
+[0:02:49] you were gonna make it uh a true sort of
+[0:02:52] formal test
+[0:02:53] um and you know some by some measures
+[0:02:56] people claimed the turing test passed
+[0:02:58] several you know a decade ago i remember
+[0:02:59] someone claiming that with a with a kind
+[0:03:01] of very bog standard normal uh
+[0:03:04] logic model um because they pretended it
+[0:03:06] was a it was a kid so the the judges
+[0:03:09] thought that the machine you know was
+[0:03:11] was a was a child so um that would be
+[0:03:14] very different from an expert ai person
+[0:03:17] uh interrogating a machine and knowing
+[0:03:19] how it was built and so on so i think um
+[0:03:22] you know we should probably move away
+[0:03:23] from that as a formal test and move more
+[0:03:26] towards a general test where we test the
+[0:03:29] ai capabilities on a range of tasks and
+[0:03:32] see if it reaches human level or above
+[0:03:34] performance on maybe thousands perhaps
+[0:03:37] even millions of tasks eventually and
+[0:03:39] cover the entire sort of cognitive space
+[0:03:41] so i think
+[0:03:43] for its time it was an amazing thought
+[0:03:44] experiment and also 1950s obviously it
+[0:03:47] was barely the dawn of the computer age
+[0:03:49] so of course he only thought about text
+[0:03:51] and now um we have a lot more different
+[0:03:53] inputs
+[0:03:54] so yeah maybe the better thing to test
+[0:03:56] is the generalizability so across
+[0:03:58] multiple tasks but i think it's also
+[0:04:00] possible as as systems like god show
+[0:04:04] that
+[0:04:05] eventually that might map right back to
+[0:04:07] language so you might be able to
+[0:04:09] demonstrate your ability to generalize
+[0:04:11] across tasks
+[0:04:13] by then communicating your ability to
+[0:04:15] generalize across tasks which is kind of
+[0:04:17] what we do through conversation anyway
+[0:04:19] when we jump around
+[0:04:20] ultimately what's in there in that
+[0:04:22] conversation is not just you moving
+[0:04:24] around knowledge
+[0:04:26] it's you moving around like these
+[0:04:29] entirely different modalities of
+[0:04:31] understanding that ultimately map to
+[0:04:34] your ability to
+[0:04:36] to uh operate successfully in all these
+[0:04:39] domains which you can think of as tasks
+[0:04:42] yeah i think certainly we as humans use
+[0:04:44] language as our main generalization
+[0:04:47] communication tool so i think we end up
+[0:04:50] thinking in language and expressing our
+[0:04:52] solutions in language um so it's going
+[0:04:54] to be very powerful
+[0:04:56] uh uh mode in which to uh explain you
+[0:05:00] know the system to explain what it's
+[0:05:01] doing um but i don't think it's the only
+[0:05:04] uh uh modality that matters so i think
+[0:05:08] there's gonna be a lot of you know
+[0:05:09] there's there's a lot of different ways
+[0:05:10] to express uh capabilities uh other than
+[0:05:13] just language
+[0:05:15] yeah visual
+[0:05:16] robotics body language
+[0:05:19] um
+[0:05:21] yeah action is the interactive aspect of
+[0:05:22] all that that's all part of it but
+[0:05:24] what's interesting with gato is that
+[0:05:26] it's a it's it's it's sort of pushing
+[0:05:28] prediction to the maximum in terms of
+[0:05:30] like you know mapping arbitrary
+[0:05:32] sequences to other sequences and sort of
+[0:05:34] just predicting what's going to happen
+[0:05:36] next so prediction seems to be
+[0:05:38] fundamental to intelligence
+[0:05:40] and what you're predicting
+[0:05:42] doesn't so much matter yeah it seems
+[0:05:44] like you can generalize that quite well
+[0:05:46] so obviously language models predict the
+[0:05:48] next word um gato predicts potentially
+[0:05:50] any uh action or any token uh and it's
+[0:05:54] just the beginning really it's our most
+[0:05:55] general agent one could call it so far
+[0:05:58] but um you know that itself can be
+[0:06:00] scaled up massively more than we've done
+[0:06:01] so far obviously we're in the in the
+[0:06:03] middle of doing that but the big part of
+[0:06:05] solving agi is creating benchmarks that
+[0:06:09] help us get closer and closer sort of
+[0:06:12] creating benchmarks that test the
+[0:06:13] journalizability and it's just still
+[0:06:15] interesting that this fella alan turing
+[0:06:18] was one of the first and probably still
+[0:06:21] one of the only people that was trying
+[0:06:23] maybe philosophically but was trying to
+[0:06:25] formulate a benchmark that could be
+[0:06:27] followed it is
+[0:06:28] even though it's it's fuzzy it's still
+[0:06:31] sufficiently rigorous to where you can
+[0:06:32] run that test and i still think
+[0:06:35] something like the touring test will at
+[0:06:37] the end of the day
+[0:06:38] be the thing that truly
+[0:06:40] impresses other humans
+[0:06:42] so that you can have a close friend
+[0:06:44] who's an ai system
+[0:06:46] for that friend to be a good friend
+[0:06:48] they're going to have to be able to
+[0:06:50] uh play starcraft
+[0:06:53] and they're going to have to do all of
+[0:06:54] these tasks um get you a beer so the
+[0:06:58] robotics tasks
+[0:06:59] uh play games with you use language
+[0:07:03] humor all those kinds of things but that
+[0:07:05] ultimately can boil down to language it
+[0:07:07] feels like not in terms of the ai
+[0:07:10] community but in terms of the actual
+[0:07:12] impact of general intelligence on the
+[0:07:14] world it feels like language will be the
+[0:07:16] place where it truly shines i think so
+[0:07:18] because it's such an important kind of
+[0:07:20] input output for us i think you're right
+[0:07:23] i think the turing test that what the
+[0:07:24] the kind of the the philosophy behind it
+[0:07:27] which is the idea of can can a machine
+[0:07:30] mimic the behaviors of a human and men
+[0:07:34] and i would say wider than just language
+[0:07:37] and text
+[0:07:38] then you know in terms of actions and
+[0:07:40] everything else creativity all these
+[0:07:42] things then um if it can sort of match
+[0:07:44] or exceed human cognitive capabilities
+[0:07:47] then i think we have a you know true
+[0:07:49] intelligence so i thought from that
+[0:07:50] perspective you're right i think he did
+[0:07:52] formulate the right uh kind of uh setup
+[0:07:55] i just i think there'll be a kind of
+[0:07:57] humor
+[0:07:59] in the ai systems of the future looking
+[0:08:01] back to this conversation
+[0:08:03] and thinking about the touring test
+[0:08:06] and uh also thinking about
+[0:08:08] by that time they would know which year
+[0:08:10] they were finally able to sort of cross
+[0:08:13] the threshold of human level
+[0:08:14] intelligence and think
+[0:08:17] how funny it is that we humans were
+[0:08:18] still
+[0:08:19] confused about this whole problem
+[0:08:22] that has been long ago been solved
+[0:08:24] well hello to the ai agents of the
+[0:08:26] future anyway so going back to your
+[0:08:29] to your journey when did you fall in
+[0:08:31] love with programming first
+[0:08:33] well it's pretty uh pretty young age
+[0:08:35] actually so um
+[0:08:37] you know i started off uh actually games
+[0:08:39] was my first love so starting to play
+[0:08:41] chess when i was around four years old
+[0:08:43] and then um it was actually with
+[0:08:45] winnings from a chess competition that i
+[0:08:47] managed to buy my first chess computer
+[0:08:49] when i was about eight years old it was
+[0:08:50] a zx spectrum which was hugely popular
+[0:08:53] in the uk at the time
+[0:08:54] and uh it's amazing machine because i
+[0:08:57] think it trained a whole generation of
+[0:08:59] programmers in the uk because it was so
+[0:09:01] accessible you know you literally
+[0:09:03] switched it on and there was the basic
+[0:09:04] prompt and you could just get going and
+[0:09:07] um my parents didn't really know
+[0:09:08] anything about computers so but because
+[0:09:10] it was my money from a chess competition
+[0:09:12] i could i could say i i wanted to buy it
+[0:09:15] uh and then you know i just went to
+[0:09:16] bookstores got books on programming and
+[0:09:20] um started typing in you know the
+[0:09:22] programming code and and then of course
+[0:09:24] um once you start doing that you start
+[0:09:26] adjusting it and then making your own
+[0:09:28] games and that's when i fell in love
+[0:09:30] with computers and realized that they
+[0:09:31] were a very magical device um in a way i
+[0:09:35] kind of i would have been able to
+[0:09:36] explain this at the time but i felt that
+[0:09:37] they were sort of almost a magical
+[0:09:39] extension of your mind i always had this
+[0:09:41] feeling and i've always loved this about
+[0:09:43] computers that you can set them off
+[0:09:45] doing something some task for you you
+[0:09:47] can go to sleep come back the next day
+[0:09:49] and it's solved
+[0:09:50] um you know that feels magical to me so
+[0:09:53] i mean all machines do that to some
+[0:09:54] extent they all enhance our natural
+[0:09:56] capabilities obviously cars make us
+[0:09:58] allow us to move faster than we can run
+[0:10:01] but this was a machine to extend the
+[0:10:03] mind
+[0:10:04] and and then of course ai is the
+[0:10:07] ultimate expression of what a machine
+[0:10:09] may be able to do or learn so
+[0:10:12] very naturally for me that thought
+[0:10:13] extended into into ai quite quickly
+[0:10:15] remember the the programming language
+[0:10:18] that was first
+[0:10:19] started
+[0:10:21] special to the machine no it was just
+[0:10:22] the base it was just i think it was just
+[0:10:24] basic uh on the zx spectrum i don't know
+[0:10:26] what specific form it was and then later
+[0:10:27] on i got a commodore amiga which uh
+[0:10:31] was a fantastic machine no you're just
+[0:10:33] showing off so yeah well lots of my
+[0:10:35] friends had atari st's and i i managed
+[0:10:37] to get amigas it was a bit more powerful
+[0:10:38] and uh and that was incredible and used
+[0:10:40] to do um programming in assembler and
+[0:10:44] and uh also amos basic this this
+[0:10:46] specific form of basic it was incredible
+[0:10:48] actually as well all my coding skills
+[0:10:50] and when did you fall in love with ai so
+[0:10:53] when did you first
+[0:10:55] start to gain an understanding that you
+[0:10:57] can not just write programs that
+[0:10:59] do some mathematical operations for you
+[0:11:01] while you sleep but something that's
+[0:11:04] a keen to
+[0:11:06] bringing an entity to life
+[0:11:08] sort of
+[0:11:09] a thing that can figure out something
+[0:11:11] more complicated than uh
+[0:11:13] than a simple mathematical operation
+[0:11:15] yeah so there was a few stages for me
+[0:11:17] all while i was very young so first of
+[0:11:19] all as i was trying to improve at
+[0:11:21] playing chess i was captaining various
+[0:11:23] england junior chess teams and at the
+[0:11:24] time when i was about you know maybe 10
+[0:11:26] 11 years old i was gonna become a
+[0:11:28] professional chess player that was my
+[0:11:29] first
+[0:11:30] thought um that dream was there sure she
+[0:11:34] tried to get to the highest level yeah
+[0:11:35] so i was um you know i got to when i was
+[0:11:38] about 12 years old i got to master stand
+[0:11:40] and i was second highest rated player in
+[0:11:41] the world to judith polgar who obviously
+[0:11:43] ended up being an amazing chess player
+[0:11:45] and uh world women's champion and when i
+[0:11:49] was trying to improve at chess where you
+[0:11:50] know what you do is you obviously first
+[0:11:52] of all you're trying to improve your own
+[0:11:53] thinking processes so that leads you to
+[0:11:56] thinking about thinking how is your
+[0:11:58] brain coming up with these ideas why is
+[0:12:00] it making mistakes how can you how can
+[0:12:02] you improve that thought process but the
+[0:12:04] second thing is that you it was just the
+[0:12:06] beginning this was like in the in the
+[0:12:08] early 80s mid 80s of chess computers if
+[0:12:11] you remember they were physical boards
+[0:12:12] like the one we have in front of us and
+[0:12:14] you pressed down the you know the
+[0:12:16] squares and i think kasparov had a
+[0:12:18] branded version of it that i i i got and
+[0:12:21] um you were you know used to they're not
+[0:12:23] as strong as they are today but they
+[0:12:24] were they were pretty strong and you
+[0:12:26] used to practice against them um to try
+[0:12:29] and improve your openings and other
+[0:12:30] things and so i remember i think i
+[0:12:32] probably got my first one i was around
+[0:12:33] 11 or 12. and i remember thinking um
+[0:12:36] this is amazing you know how how has
+[0:12:38] someone programmed uh uh this this chess
+[0:12:40] board to play chess uh and uh it was
+[0:12:43] very formative book i bought which was
+[0:12:45] called the chess computer handbook by
+[0:12:47] david levy which came out in 1984 or
+[0:12:50] something so i must have got it when i
+[0:12:51] was about 11 12 and it explained fully
+[0:12:54] how these chess programs were made i
+[0:12:56] remember my first ai program being uh
+[0:12:58] programming my amiga it couldn't it
+[0:13:01] wasn't powerful enough to play chess i
+[0:13:02] couldn't write a whole chess program but
+[0:13:04] i wrote a program for it to play othello
+[0:13:06] reversey it's sometimes called i think
+[0:13:08] in the u.s and so a slightly simpler
+[0:13:10] game than chess but i used all of the
+[0:13:12] principles that chess programs had alpha
+[0:13:14] beta search all of that and that was my
+[0:13:16] first ai program i remember that very
+[0:13:17] well was around 12 years old so that
+[0:13:19] that that brought me into ai and then
+[0:13:21] the second part was later on uh when i
+[0:13:24] was around 1617 and i was writing games
+[0:13:26] professionally designing games uh
+[0:13:28] writing a game called theme park which
+[0:13:30] um had ai as a core gameplay component
+[0:13:33] as part of the simulation um and it sold
+[0:13:36] you know millions of copies around the
+[0:13:38] world and people loved the way that the
+[0:13:40] ai even though it was relatively simple
+[0:13:42] by today's ai standards um was was
+[0:13:45] reacting to the way you as the player
+[0:13:46] played it so it was called a sandbox
+[0:13:48] game so it's one of the first types of
+[0:13:50] games like that along with simcity and
+[0:13:52] it meant that every game you played was
+[0:13:54] unique
+[0:13:55] is there something you could say just on
+[0:13:57] a small tangent
+[0:13:58] about
+[0:13:59] really impressive ai from a game design
+[0:14:04] human enjoyment perspective
+[0:14:06] really impressive ai that you've seen in
+[0:14:08] games and maybe what does it take to
+[0:14:11] create ai system and how hard of a
+[0:14:13] problem is that so a million questions
+[0:14:16] just as a brief tangent
+[0:14:18] well look i think um
+[0:14:20] games uh games have been significant in
+[0:14:22] my life for three reasons so first of
+[0:14:24] all to to i was playing them and
+[0:14:26] training myself on games when i was a
+[0:14:28] kid then i went through a phase of
+[0:14:30] designing games and writing ai4 games so
+[0:14:32] all the games i i professionally wrote
+[0:14:35] uh had ai as a core component and that
+[0:14:37] was mostly in the in the 90s and the
+[0:14:40] reason i was doing that in games
+[0:14:42] industry was at the time the games
+[0:14:44] industry i think was the cutting edge of
+[0:14:46] technology so whether it was graphics
+[0:14:48] with people like john carmack and quake
+[0:14:50] and those kind of things or ai i think
+[0:14:53] actually all the action was going on in
+[0:14:55] games and and we've seen we're still
+[0:14:57] reaping the benefits of that even with
+[0:14:58] things like gpus which you know i find
+[0:15:00] ironic was obviously invented for
+[0:15:02] graphics computer graphics but then
+[0:15:03] turns out to be amazingly useful for ai
+[0:15:06] it just turns out everything's a matrix
+[0:15:07] multiplication it appears you know in
+[0:15:09] the whole world
+[0:15:11] so um so i think games at the time had
+[0:15:14] the most cutting edge ai and a lot of
+[0:15:16] the the games uh uh we you know i was
+[0:15:18] involved in writing so there was a game
+[0:15:20] called black and white which was one
+[0:15:21] game i was involved with in the early
+[0:15:23] stages of which i still think is the
+[0:15:25] most um
+[0:15:26] impressive uh example of reinforcement
+[0:15:28] learning in a computer game so in that
+[0:15:31] game you know you trained a little pet
+[0:15:32] animal uh and
+[0:15:35] yeah and it sort of learned from how you
+[0:15:36] were treating it so if you treated it
+[0:15:38] badly then it became mean yeah and then
+[0:15:40] it would be mean to to your villagers
+[0:15:42] and your and your population the sort of
+[0:15:44] uh the little tribe that you were
+[0:15:46] running uh but if you were kind to it
+[0:15:48] then it would be kind and people were
+[0:15:49] fascinated by how that was and so was i
+[0:15:51] to be honest with the way it kind of
+[0:15:53] developed and um especially the mapping
+[0:15:55] to good and evil yeah it made you made
+[0:15:58] you realize made me realize that you can
+[0:16:01] sort of in the way in the choices you
+[0:16:03] make can define
+[0:16:05] uh the
+[0:16:06] where you end up and that means
+[0:16:09] all of us are capable of the good
+[0:16:11] uh evil it all matters in uh the
+[0:16:14] different choices along the trajectory
+[0:16:16] to those places that you make it's
+[0:16:18] fascinating i mean games can do that
+[0:16:20] philosophically to you and it's rare it
+[0:16:21] seems rare yeah well games are i think a
+[0:16:23] unique medium because um you as the
+[0:16:26] player you're not just passively
+[0:16:27] consuming the the entertainment right
+[0:16:30] you're actually actively involved as an
+[0:16:32] as a as an agent so i think that's what
+[0:16:35] makes it in some ways can be more
+[0:16:36] visceral than other other mediums like
+[0:16:38] you know films and books so the second
+[0:16:40] so that was you know designing ai and
+[0:16:42] games and then the third use uh uh i've
+[0:16:45] we've used of ai is in deep mind from
+[0:16:47] the beginning which is using games as a
+[0:16:49] testing ground for proving out ai
+[0:16:52] algorithms and developing ai algorithms
+[0:16:54] and that was a that was a sort of um a
+[0:16:57] core component of our vision at the
+[0:16:59] start of deepmind was that we would use
+[0:17:01] games very heavily uh as our main
+[0:17:03] testing ground certainly to begin with
+[0:17:05] um because it's super efficient to use
+[0:17:07] games and also you know it's very easy
+[0:17:10] to have metrics to see how well your
+[0:17:12] systems are improving and what direction
+[0:17:14] your ideas are going in and whether
+[0:17:16] you're making incremental improvements
+[0:17:18] and because those games are often rooted
+[0:17:20] in something that humans did for a long
+[0:17:21] time beforehand
+[0:17:23] there's already a strong
+[0:17:25] set of rules like it's already a damn
+[0:17:27] good benchmark yes it's really good for
+[0:17:29] so many reasons because you've got
+[0:17:31] you've got you've got clear measures of
+[0:17:32] how good humans can be at these things
+[0:17:35] and in some cases like go we've been
+[0:17:37] playing it for thousands of years um and
+[0:17:39] and uh often they have scores or at
+[0:17:42] least win conditions so it's very easy
+[0:17:44] for reward learning systems to get a
+[0:17:45] reward it's very easy to specify what
+[0:17:47] that reward is um and uh also at the end
+[0:17:50] it's easy to you know to test uh
+[0:17:52] externally you know
+[0:17:54] how strong is your system by of course
+[0:17:56] playing against you know the world's
+[0:17:58] strongest players at those games so it's
+[0:18:01] it's so good for so many reasons and
+[0:18:02] it's also very efficient to run
+[0:18:04] potentially millions of simulations in
+[0:18:06] parallel on the cloud so um i think
+[0:18:09] there's a huge reason why we were so
+[0:18:11] successful back in you know starting out
+[0:18:13] 2010 how come we were able to progress
+[0:18:15] so quickly because we'd utilize games
+[0:18:18] and um you know at the beginning of deep
+[0:18:20] mind we also hired some amazing game
+[0:18:23] engineers uh who i knew from my previous
+[0:18:25] uh lives in the games industry and uh
+[0:18:28] and that helped to bootstrap us very
+[0:18:30] quickly and plus it's somehow super
+[0:18:32] compelling almost at a philosophical
+[0:18:34] level of man versus machine
+[0:18:38] over over a chessboard or a go board
+[0:18:41] and especially given that the entire
+[0:18:42] history of ai is defined by people
+[0:18:44] saying it's going to be impossible to
+[0:18:46] make a machine that
+[0:18:48] beats a human being in chess
+[0:18:50] and then once that happened
+[0:18:53] people were certain when i was coming up
+[0:18:55] in ai that go
+[0:18:57] is not a game that could be solved
+[0:18:58] because of the combinatorial complexity
+[0:19:01] it's just too it's it's it's you know
+[0:19:04] no matter how much moore's law you have
+[0:19:06] compute is just never going to be able
+[0:19:08] to crack the game of go yeah and so that
+[0:19:11] then there's something compelling about
+[0:19:14] facing sort of taking on the
+[0:19:16] impossibility of that task from the
+[0:19:19] ai
+[0:19:21] researcher perspective engineer
+[0:19:22] perspective and then as a human being
+[0:19:24] just observing this whole thing
+[0:19:27] your
+[0:19:28] beliefs about what you thought was
+[0:19:30] impossible
+[0:19:32] being broken apart
+[0:19:35] it's it's uh humbling
+[0:19:37] to realize we're not as smart as we
+[0:19:39] thought
+[0:19:40] it's humbling to realize that the things
+[0:19:42] we think are impossible now perhaps will
+[0:19:44] be done
+[0:19:45] in the future there's something
+[0:19:48] really powerful about a game ai system
+[0:19:51] being a human being in a game that
+[0:19:53] drives that message
+[0:19:54] uh home for like millions billions of
+[0:19:57] people especially in the case of go sure
+[0:20:00] well look i think it's a i mean it has
+[0:20:02] been a fascinating journey and and
+[0:20:04] especially as i i think about it from i
+[0:20:06] can understand it from both sides both
+[0:20:08] as the ai
+[0:20:10] you know creators of the ai um but also
+[0:20:13] as a games player originally so you know
+[0:20:16] it was a it was a really interesting it
+[0:20:17] was i mean it was a fantastic um but
+[0:20:20] also somewhat bittersweet moment the
+[0:20:22] alphago match for me um uh seeing that
+[0:20:25] and and and being obviously heavily
+[0:20:27] heavily involved in that um but you know
+[0:20:29] as you say chess has been uh the i mean
+[0:20:32] kasparov i think rightly called it the
+[0:20:34] drosophila of of intelligence right so
+[0:20:37] it's sort of i i love that phrase and
+[0:20:39] and i think he's right because chess has
+[0:20:41] been um hand in hand with ai from the
+[0:20:44] beginning of the the whole field right
+[0:20:47] so i think every ai practitioner
+[0:20:49] starting with turing and claude shannon
+[0:20:51] and all those uh the sort of forefathers
+[0:20:53] of of of of the field um tried their
+[0:20:56] hand at writing a chess program uh i've
+[0:20:58] got original audition of claude
+[0:21:00] shannon's first chess program i think it
+[0:21:02] was 1949 uh the the original sort of uh
+[0:21:05] paper and um they all did that and
+[0:21:08] turing famously wrote a chess program
+[0:21:10] that but all the computers around there
+[0:21:12] were obviously too slow to run it so he
+[0:21:13] had to run he had to be the computer
+[0:21:15] right so he literally i think spent two
+[0:21:18] or three days running his own program by
+[0:21:20] hand with pencil and paper and playing
+[0:21:21] playing a friend of his uh with his
+[0:21:23] chess program so
+[0:21:25] of course deep blue was a huge moment uh
+[0:21:28] beating
+[0:21:29] off um but actually when that happened i
+[0:21:31] remember that very very vividly of
+[0:21:33] course because it was you know chess and
+[0:21:35] computers and ai all the things i loved
+[0:21:37] and i was at college at the time but i
+[0:21:39] remember coming away from that being
+[0:21:40] more impressed by kasparov's mind than i
+[0:21:43] was by deep blue because here was
+[0:21:45] kasparov with his human mind not only
+[0:21:47] could he play chess more or less to the
+[0:21:49] same level as this brute of a
+[0:21:51] calculation machine um but of course
+[0:21:53] kasparov can do everything else humans
+[0:21:55] can do ride a bike talk many languages
+[0:21:57] do politics all the rest of the amazing
+[0:21:58] things that kasparov does and so with
+[0:22:01] the same brain yeah and and yet deep
+[0:22:03] blue uh brilliant as it was at chess it
+[0:22:06] had been hand coded for chess and um
+[0:22:10] actually had distilled the knowledge of
+[0:22:13] chess grand masters uh into into a cool
+[0:22:15] program but it couldn't do anything else
+[0:22:17] like it couldn't even play a strictly
+[0:22:19] simpler game like tic-tac-toe so um
+[0:22:21] something to me was missing from um
+[0:22:25] intelligence from that system that we
+[0:22:27] would regard as intelligence and i think
+[0:22:28] it was this idea of generality and and
+[0:22:31] also learning yeah um so and that's what
+[0:22:33] we tried to do out with alphago yeah we
+[0:22:36] alphago and alpha zero mu zero and then
+[0:22:38] got on all the things that uh we'll get
+[0:22:41] into some parts of there's just a
+[0:22:43] fascinating trajectory here but let's
+[0:22:46] just stick on chess briefly uh on the
+[0:22:49] human side of chess you've proposed that
+[0:22:51] from a game design perspective the thing
+[0:22:53] that makes chess
+[0:22:55] compelling as a game
+[0:22:57] uh is that there's a creative tension
+[0:22:59] between a bishop
+[0:23:00] and the knight
+[0:23:02] can you explain this first of all it's
+[0:23:04] really interesting to think about what
+[0:23:06] makes the game compelling
+[0:23:08] makes it stick across centuries
+[0:23:11] yeah i was sort of thinking about this
+[0:23:13] and actually a lot of even amazing chess
+[0:23:14] players don't think about it necessarily
+[0:23:16] from a games designer point of view so
+[0:23:18] it's with my game design hat on that i
+[0:23:20] was thinking about this why is chess so
+[0:23:21] compelling
+[0:23:22] and i think a critical uh reason is the
+[0:23:26] the dynamicness of of of the different
+[0:23:28] kind of chess positions you can have
+[0:23:29] whether they're closed or open and other
+[0:23:31] things comes from the bishop and the
+[0:23:33] night so if you think about how
+[0:23:35] different the the the capabilities of
+[0:23:38] the bishop and knight are in terms of
+[0:23:39] the way they move and then somehow chess
+[0:23:42] has evolved to balance those two
+[0:23:44] capabilities more or less equally so
+[0:23:46] they're both roughly worth three points
+[0:23:48] each so you think that dynamics was
+[0:23:49] always there and then the rest of the
+[0:23:51] rules are kind of trying to stabilize
+[0:23:53] the game well maybe i mean it's sort of
+[0:23:54] i don't know his chicken and egg
+[0:23:56] situation probably both came together
+[0:23:57] but the fact that it's got to this
+[0:23:59] beautiful equilibrium where you can have
+[0:24:01] the bishop and knight they're so
+[0:24:02] different in power um but so equal in
+[0:24:05] value across the set of the universe of
+[0:24:07] all positions right somehow they've been
+[0:24:10] balanced by humanity over hundreds of
+[0:24:12] years um i think gives gives the game
+[0:24:14] the creative tension uh that you can
+[0:24:17] swap the bishop and knights uh for a
+[0:24:19] bishop for a knight and you you they're
+[0:24:20] more or less worth the same but now you
+[0:24:22] aim for a different type of position if
+[0:24:24] you have the knight you want a closed
+[0:24:25] position if you have the bishop you want
+[0:24:26] an open position so i think that creates
+[0:24:28] a lot of the creative tension in chess
+[0:24:30] so some kind of controlled creative
+[0:24:32] tension
+[0:24:33] from an ai perspective
+[0:24:35] do you think ai systems convention
+[0:24:37] design games that are optimally
+[0:24:39] compelling to humans
+[0:24:41] well that's an interesting question you
+[0:24:42] know sometimes i get asked about
+[0:24:44] ai and creativity and and this and the
+[0:24:46] way i answered that is relevant to that
+[0:24:48] question which is that i think they're
+[0:24:50] different levels of creativity one could
+[0:24:52] say so i think um if we define
+[0:24:54] creativity as coming up with something
+[0:24:56] original right that's that's useful for
+[0:24:58] a purpose then you know i think the kind
+[0:25:00] of lowest level of creativity is like an
+[0:25:02] interpolation so an averaging of all the
+[0:25:05] examples you see so maybe a very basic
+[0:25:07] ai system could say you could have that
+[0:25:08] so you show it millions of pictures of
+[0:25:10] cats and then you say give me an average
+[0:25:12] looking cat right generate me an average
+[0:25:14] looking cat i would call that
+[0:25:16] interpolation then there's extrapolation
+[0:25:18] which something like alphago showed so
+[0:25:20] alphago played you know millions of
+[0:25:22] games of go against itself
+[0:25:24] and then it came up with brilliant new
+[0:25:26] ideas like move 37 in game two bringing
+[0:25:28] a motif strategies and go that that no
+[0:25:31] humans had ever thought of even though
+[0:25:33] we've played it for thousands of years
+[0:25:34] and professionally for hundreds of years
+[0:25:36] so that that i call that extrapolation
+[0:25:38] but then that's still there's still a
+[0:25:40] level above that which is you know you
+[0:25:41] could call out the box thinking or true
+[0:25:44] innovation which is could you invent go
+[0:25:47] right could you invent chess and not
+[0:25:48] just come up with a brilliant chess move
+[0:25:50] or brilliant go move but can you can you
+[0:25:52] actually invent chess or something as
+[0:25:54] good as chess or go and i think one day
+[0:25:57] uh ai could but what's missing is how
+[0:26:00] would you even specify that task to a a
+[0:26:03] program right now and the way i would do
+[0:26:05] it if i was best telling a human to do
+[0:26:07] it or a games designer a human games
+[0:26:09] designer to do it is i would say
+[0:26:10] something like go i would say um
+[0:26:13] come up with a game that only takes five
+[0:26:14] minutes to learn which go does because
+[0:26:16] it's got simple rules but many lifetimes
+[0:26:18] to master right or impossible to master
+[0:26:21] in one lifetime because so deep and so
+[0:26:23] complex um and then it's aesthetically
+[0:26:26] beautiful uh and also uh it can be
+[0:26:28] completed in three or four hours of
+[0:26:30] gameplay time which is you know useful
+[0:26:32] for our us you know in in a human day
+[0:26:35] and so um you might specify these side
+[0:26:38] of high level concepts like that and
+[0:26:40] then you know with that and maybe a few
+[0:26:41] other things uh one could imagine that
+[0:26:44] go satisfies uh those those constraints
+[0:26:47] um but the problem is is that we we're
+[0:26:49] not able to specify abstract notions
+[0:26:52] like that high-level abstract notions
+[0:26:54] like that yet to our ai systems um and i
+[0:26:57] think there's still something missing
+[0:26:59] there in terms of um high-level concepts
+[0:27:01] or abstractions that they truly
+[0:27:03] understand and that you know combinable
+[0:27:05] and compositional um so for the moment
+[0:27:09] i think ai is capable of doing
+[0:27:10] interpolation extrapolation but not true
+[0:27:13] invention so coming up with rule sets
+[0:27:16] uh and optimizing
+[0:27:18] with complicated objectives around those
+[0:27:20] rule sets we can't currently do
+[0:27:22] but you could take a specific rule set
+[0:27:25] and then run a kind of self-play
+[0:27:28] experiment to see how long
+[0:27:30] just observe how an ai system from
+[0:27:32] scratch learns how long is that journey
+[0:27:35] of learning and maybe
+[0:27:37] if it satisfies some of those other
+[0:27:39] things you mentioned in terms of
+[0:27:40] quickness to learn and so on and you
+[0:27:42] could see a long journey to master for
+[0:27:44] even an ai system then you could say
+[0:27:47] that this is a promising game
+[0:27:49] um but it would be nice to do almost
+[0:27:51] like alpha codes or programming rules so
+[0:27:54] generating rules that kind of
+[0:27:56] uh
+[0:27:57] that automate even that part of the
+[0:27:59] generation of rules so i have thought
+[0:28:00] about systems actually um that i think
+[0:28:03] would be amazing in in for a games
+[0:28:05] designer if you could have a system that
+[0:28:07] um takes your game plays it tens of
+[0:28:09] millions of times maybe overnight and
+[0:28:11] then self balances the rules better so
+[0:28:14] it tweaks the the rules and the maybe
+[0:28:16] the equations and the and the and the
+[0:28:19] parameters so that the game uh is more
+[0:28:22] balanced the units in the game or
+[0:28:24] some of the rules could be tweaked so
+[0:28:26] it's a bit of like a giving a base set
+[0:28:28] and then allowing a monte carlo tree
+[0:28:30] search or something like that to sort of
+[0:28:31] explore it right and i think that would
+[0:28:34] be super super a powerful tool actually
+[0:28:37] for for balancing auto balancing a game
+[0:28:39] which usually takes
+[0:28:41] thousands of hours from hundreds of
+[0:28:42] games human games testers normally to to
+[0:28:44] balance some one you know game like
+[0:28:46] starcraft which is you know blizzard are
+[0:28:49] amazing at balancing their games but it
+[0:28:50] takes them years and years and years so
+[0:28:52] one could imagine at some point when
+[0:28:54] this uh this stuff becomes uh efficient
+[0:28:56] enough to you know you might be able to
+[0:28:57] do that like overnight
+[0:28:59] do you think a game that is optimal
+[0:29:02] designed by an ai system
+[0:29:04] would look very much like uh planet
+[0:29:07] earth
+[0:29:09] maybe maybe it's only the sort of game i
+[0:29:11] would love to make is is and i've tried
+[0:29:13] you know my in my game's career the
+[0:29:16] games design career you know my first
+[0:29:18] big game was designing a theme park an
+[0:29:20] amusement park then uh with games like
+[0:29:23] republic i tried to you know have games
+[0:29:25] where we designed whole cities and and
+[0:29:27] allowed you to play in so and of course
+[0:29:29] people like will wright have written
+[0:29:30] games like sim earth uh trying to
+[0:29:32] simulate the whole of earth pretty
+[0:29:34] tricky but um i see earth i haven't
+[0:29:36] actually played that one so what is it
+[0:29:38] does it incorporative evolution or yeah
+[0:29:40] it has evolution and it's sort of um it
+[0:29:42] tries to it sort of treats it as an
+[0:29:44] entire biosphere but from quite a high
+[0:29:46] level
+[0:29:47] so
+[0:29:48] nice to be able to sort of zoom in zoom
+[0:29:50] out zoom in exactly so obviously he
+[0:29:52] couldn't do that was in the night i
+[0:29:53] think he wrote that in the 90s so it
+[0:29:55] couldn't you know it wasn't it wasn't
+[0:29:56] able to do that but that that would be
+[0:29:58] uh obviously the ultimate sandbox game
+[0:30:00] of course
+[0:30:01] on that topic do you think we're living
+[0:30:02] in a simulation
+[0:30:04] yes well so okay so i'm gonna jump
+[0:30:06] around from the absurdly philosophical
+[0:30:09] to the short term sure very very happy
+[0:30:11] to so i think uh my answer to that
+[0:30:13] question is a little bit complex because
+[0:30:15] uh there is simulation theory which
+[0:30:17] obviously nick bostrom i think famously
+[0:30:19] first proposed um
+[0:30:21] and uh i don't quite believe it in in
+[0:30:24] that sense so um in the in the sense
+[0:30:26] that uh are we in some sort of computer
+[0:30:28] game or have our descendants somehow
+[0:30:31] recreated uh uh earth in the you know
+[0:30:34] 21st century and and some for some kind
+[0:30:36] of experimental reason i think that um
+[0:30:39] but i do think that we that that we
+[0:30:42] might be that the best way to understand
+[0:30:44] physics and the universe is from a
+[0:30:47] computational perspective so
+[0:30:49] understanding it as an information
+[0:30:51] universe and actually information being
+[0:30:54] the most fundamental unit of uh reality
+[0:30:58] rather than matter or energy so a
+[0:31:00] physicist would say you know matter or
+[0:31:01] energy you know e equals m c squared
+[0:31:03] these are the things that are are the
+[0:31:05] fundamentals of the universe i'd
+[0:31:07] actually say information um which of
+[0:31:10] course itself can be can specify energy
+[0:31:12] or matter right matter is actually just
+[0:31:14] you know we're we're just out the way
+[0:31:16] our bodies and all the molecules in our
+[0:31:18] body arrange is information so i think
+[0:31:20] information may be the most fundamental
+[0:31:22] way to describe the universe and
+[0:31:24] therefore you could say we're in some
+[0:31:27] sort of simulation because of that um
+[0:31:29] but i don't i do i'm not i'm not really
+[0:31:31] a subscriber to the idea that um you
+[0:31:33] know these are sort of throw away
+[0:31:35] billions of simulations around i think
+[0:31:37] this is actually very critical and
+[0:31:39] possibly unique this simulation
+[0:31:41] particular one yes so but and you just
+[0:31:43] mean
+[0:31:45] treating the universe
+[0:31:46] as a computer
+[0:31:48] that's
+[0:31:49] processing and modifying information
+[0:31:52] is is a good way to solve the problems
+[0:31:53] of physics of chemistry of biology
+[0:31:57] and perhaps of humanity and so on yes i
+[0:32:00] think understanding physics in terms of
+[0:32:02] information theory uh might be the best
+[0:32:05] way to to really uh understand what's
+[0:32:08] going on here
+[0:32:09] from our understanding of a universal
+[0:32:12] turing machine from our understanding of
+[0:32:14] a computer do you think there's
+[0:32:15] something outside of the capabilities of
+[0:32:18] a computer that is present in our
+[0:32:20] universe you have a disagreement with
+[0:32:22] roger penrose
+[0:32:24] the nature of consciousness he he thinks
+[0:32:26] that consciousness is more than just a
+[0:32:28] computation
+[0:32:29] uh do you think all of it the whole
+[0:32:31] shebang is can be can be a competition
+[0:32:33] yeah i've had many fascinating debates
+[0:32:35] with uh sir roger penrose and obviously
+[0:32:38] he's he's famously and i read you know
+[0:32:40] emperors of new mind and and um
+[0:32:42] and his books uh his classical books uh
+[0:32:45] and they they were pretty influential
+[0:32:46] and you know in the 90s and um he
+[0:32:48] believes that there's something more you
+[0:32:50] know something quantum that is needed to
+[0:32:53] explain consciousness in the brain um i
+[0:32:55] think about what we're doing actually at
+[0:32:57] deepmind and what my career is being
+[0:32:59] we're almost like true rings champion so
+[0:33:01] we are pushing turing machines or
+[0:33:03] classical computation to the limits what
+[0:33:06] are the limits of what classical
+[0:33:08] computing can do now um and at the same
+[0:33:11] time i've also studied neuroscience to
+[0:33:13] see and that's why i did my phd in was
+[0:33:15] to see also to look at you know is there
+[0:33:17] anything quantum in the brain from a
+[0:33:19] neuroscience or biological perspective
+[0:33:21] and um and so far i think most
+[0:33:23] neuroscientists and most mainstream
+[0:33:25] biologists and neuroscientists would say
+[0:33:26] there's no evidence of any quantum uh
+[0:33:28] systems or effects in the brain as far
+[0:33:30] as we can see it's it can be mostly
+[0:33:32] explained by classical uh classical
+[0:33:34] theories so
+[0:33:37] and then so there's sort of the the
+[0:33:38] search from the biology side and then at
+[0:33:41] the same time there's the raising of the
+[0:33:43] water uh at the bar from what classical
+[0:33:45] turing machines can do uh uh and
+[0:33:48] and you know including our new ai
+[0:33:50] systems and uh as you alluded to earlier
+[0:33:54] um you know i think ai especially in the
+[0:33:56] last decade plus has been a continual
+[0:33:59] story now of surprising uh events uh and
+[0:34:02] surprising successes knocking over one
+[0:34:04] theory after another of what was thought
+[0:34:06] to be impossible you know from go to
+[0:34:08] protein folding and so on and so i think
+[0:34:11] um
+[0:34:12] i would be very hesitant to bet against
+[0:34:16] how far the uh universal turing machine
+[0:34:19] and classical computation paradigm can
+[0:34:22] go and and my betting would be
+[0:34:25] that all of certainly what's going on in
+[0:34:27] our brain uh can probably be mimicked or
+[0:34:30] or approximated on a on a classical
+[0:34:33] machine um not you know not requiring
+[0:34:35] something metaphysical or quantum and
+[0:34:38] we'll get there with some of the work
+[0:34:40] with alpha fold
+[0:34:41] which i think begins the journey of
+[0:34:44] modeling this beautiful and complex
+[0:34:46] world of biology so you think all the
+[0:34:48] magic of the human mind comes from this
+[0:34:51] just a few pounds of mush
+[0:34:54] of a biological computational mush
+[0:34:57] that's
+[0:34:58] akin to some of the neural networks
+[0:35:01] not directly but in spirit that deep
+[0:35:04] mind has been working with well look i
+[0:35:06] think it's um you say it's a few you
+[0:35:08] know of course it's this is the i think
+[0:35:09] the biggest miracle of the universe is
+[0:35:11] that um it is just a few pounds of mush
+[0:35:14] in our skulls and yet it's also our
+[0:35:16] brains are the most complex objects in
+[0:35:18] the in that we know of in the universe
+[0:35:20] so there's something profoundly
+[0:35:21] beautiful and amazing about our brains
+[0:35:23] and
+[0:35:24] i
+[0:35:25] think that it's an incredibly uh
+[0:35:28] incredible efficient machine and and uh
+[0:35:32] uh
+[0:35:32] and it's a is you know phenomenal
+[0:35:34] basically and i think that building ai
+[0:35:37] one of the reasons i want to build ai
+[0:35:38] and i've always wanted to is i think by
+[0:35:40] building an intelligent artifact like ai
+[0:35:43] and then comparing it to the human mind
+[0:35:45] um that will help us unlock the
+[0:35:48] uniqueness and the true secrets of the
+[0:35:50] mind that we've always wondered about
+[0:35:52] since the dawn of history like
+[0:35:53] consciousness dreaming uh creativity uh
+[0:35:58] emotions what are all these things right
+[0:36:00] we've we've wondered about them since
+[0:36:02] since the dawn of humanity and i think
+[0:36:04] one of the reasons and you know i love
+[0:36:06] philosophy and philosophy of mind is we
+[0:36:09] found it difficult is there haven't been
+[0:36:10] the tools for us to really other than
+[0:36:12] introspection to from very clever people
+[0:36:14] in in history very clever philosophers
+[0:36:17] to really investigate this
+[0:36:18] scientifically but now suddenly we have
+[0:36:20] a plethora of tools firstly we have all
+[0:36:22] the neuroscience tools fmri machines
+[0:36:23] single cell recording all of this stuff
+[0:36:25] but we also have the ability computers
+[0:36:28] and ai to build uh intelligent systems
+[0:36:31] so i think that um
+[0:36:33] uh
+[0:36:34] you know i think it is amazing what the
+[0:36:35] human mind does and um and and i'm kind
+[0:36:39] of in awe of it really and uh and i
+[0:36:42] think it's amazing that without human
+[0:36:44] minds we're able to build things like
+[0:36:45] computers and and actually even you know
+[0:36:48] think and investigate about these
+[0:36:49] questions i think that's also a
+[0:36:50] testament to the human mind yeah the
+[0:36:53] universe built the human mind that now
+[0:36:56] is building computers that help
+[0:36:58] us understand both the universe and our
+[0:37:00] own human mind right that's exactly it i
+[0:37:02] mean i think that's one you know one
+[0:37:04] could say we we are
+[0:37:05] maybe we're the mechanism by which the
+[0:37:07] universe is going to try and understand
+[0:37:09] itself yeah
+[0:37:12] it's beautiful so let's let's go to the
+[0:37:14] basic building blocks of biology that i
+[0:37:17] think
+[0:37:18] is another angle at which you can start
+[0:37:20] to understand the human mind the human
+[0:37:21] body which is quite fascinating which is
+[0:37:24] from the basic building blocks start to
+[0:37:26] simulate start to model
+[0:37:28] how from those building blocks you can
+[0:37:30] construct bigger and bigger more complex
+[0:37:32] systems maybe one day the entirety of
+[0:37:34] the human biology so
+[0:37:37] here's another problem that thought to
+[0:37:39] be impossible to solve which is protein
+[0:37:41] folding and alpha fold or
+[0:37:45] specific alpha fold 2
+[0:37:47] did just that it solved protein folding
+[0:37:50] i think it's one of the biggest
+[0:37:51] breakthroughs
+[0:37:53] uh certainly in the history of
+[0:37:54] structural biology but uh in general in
+[0:37:56] in science
+[0:37:58] um
+[0:38:00] maybe from a high level
+[0:38:02] what is it and how does it work
+[0:38:04] and then we can ask some fascinating
+[0:38:07] sure questions after sure um so maybe
+[0:38:10] like to explain it uh to people not
+[0:38:12] familiar with protein folding is you
+[0:38:13] know i first of all explain proteins
+[0:38:15] which is you know proteins are essential
+[0:38:17] to all life every function in your body
+[0:38:20] depends on proteins sometimes they're
+[0:38:22] called the workhorses of biology and if
+[0:38:24] you look into them and i've you know
+[0:38:25] obviously as part of alpha fold i've
+[0:38:26] been researching proteins and and
+[0:38:29] structural biology for the last few
+[0:38:30] years you know they're amazing little
+[0:38:33] bio nano machines proteins they're
+[0:38:34] incredible if you actually watch little
+[0:38:36] videos of how they work animations of
+[0:38:37] how they work
+[0:38:38] and um proteins are specified by their
+[0:38:41] genetic sequence called the amino acid
+[0:38:43] sequence so you can think of those their
+[0:38:45] genetic makeup and then in the body uh
+[0:38:48] in in nature they when they when they
+[0:38:51] fold up into a 3d structure so you can
+[0:38:53] think of it as a string of beads and
+[0:38:55] then they fold up into a ball now the
+[0:38:57] key thing is you want to know what that
+[0:38:59] 3d structure is
+[0:39:00] because the structure the 3d structure
+[0:39:03] of a protein
+[0:39:04] is what helps to determine what does it
+[0:39:06] do the function it does in your body
+[0:39:08] and also if you're interested in drug
+[0:39:10] drugs or disease you need to understand
+[0:39:12] that 3d structure because if you want to
+[0:39:14] target something with a drug compound or
+[0:39:17] about to block that something the
+[0:39:18] protein is doing uh you need to
+[0:39:20] understand where it's going to bind on
+[0:39:22] the surface of the protein so obviously
+[0:39:24] in order to do that you need to
+[0:39:25] understand the 3d structure so the
+[0:39:26] structure is mapped to the function the
+[0:39:28] structure is mapped to the function and
+[0:39:29] the structure is obviously somehow
+[0:39:31] specified by the by the amino acid
+[0:39:34] sequence and that's the in essence the
+[0:39:35] protein folding problem is can you just
+[0:39:38] from the amino acid sequence the
+[0:39:39] one-dimensional
+[0:39:41] string of letters can you
+[0:39:43] immediately computationally predict the
+[0:39:45] 3d structure right and this has been a
+[0:39:48] grand challenge in biology for over 50
+[0:39:50] years so i think it was first
+[0:39:52] articulated by christian anfinsen a
+[0:39:54] nobel prize winner in 1972 uh as part of
+[0:39:57] his nobel prize winning lecture and he
+[0:39:59] just speculated this should be possible
+[0:40:01] to go from the amino acid sequence to
+[0:40:04] the 3d structure we didn't say how so
+[0:40:06] i you know it's been described to me as
+[0:40:08] equivalent to fermat's last theorem but
+[0:40:11] for biology right you should as somebody
+[0:40:13] that uh very well might win the nobel
+[0:40:15] prize in the future but outside of that
+[0:40:18] you should do more of that kind of thing
+[0:40:19] in the margins just put random things
+[0:40:22] that will take like 200 years to solve
+[0:40:24] set people off for 200 years it should
+[0:40:26] be possible exactly and just don't give
+[0:40:28] any interest exactly i think everyone's
+[0:40:30] exactly should be i'll have to remember
+[0:40:32] that for future so yeah so he set off
+[0:40:34] you know with this one throwaway remark
+[0:40:36] just like fermat you know he he set off
+[0:40:38] this whole 50-year uh
+[0:40:40] uh uh field really of computational
+[0:40:43] biology and and they had you know they
+[0:40:45] got stuck they hadn't really got very
+[0:40:47] far with doing this and and um until now
+[0:40:50] until alpha fold came along this is done
+[0:40:52] experimentally right very painstakingly
+[0:40:55] so the rule of thumb is and you have to
+[0:40:56] like crystallize the protein which is
+[0:40:58] really difficult some proteins can't be
+[0:41:00] crystallized like membrane proteins and
+[0:41:03] then you have to use very expensive
+[0:41:04] electron microscopes or x-ray
+[0:41:06] crystallography machines really
+[0:41:08] painstaking work to get the 3d structure
+[0:41:10] and visualize the 3d structure so the
+[0:41:12] rule of thumb in in experimental biology
+[0:41:14] is that it takes one phd student their
+[0:41:16] entire phd to do one protein uh and with
+[0:41:20] alpha fold two we were able to predict
+[0:41:23] the 3d structure in a matter of seconds
+[0:41:25] um and so we were you know over
+[0:41:27] christmas we did the whole human
+[0:41:29] proteome or every protein in the human
+[0:41:31] body all 20 000 proteins so the human
+[0:41:33] proteins like the equivalent of the
+[0:41:34] human genome but on protein space and uh
+[0:41:38] and sort of revolutionize really what uh
+[0:41:40] a structural biologist can do because
+[0:41:43] now um they don't have to worry about
+[0:41:45] these painstaking experimentals you know
+[0:41:47] should they put all of that effort in or
+[0:41:49] not they can almost just look up the
+[0:41:50] structure of their proteins like a
+[0:41:51] google search
+[0:41:53] and so there's a data set on which it's
+[0:41:56] trained and how to map this amino acids
+[0:41:58] because first of all it's incredible
+[0:41:59] that a protein this little chemical
+[0:42:01] computer is able to do that computation
+[0:42:03] itself in some kind of distributed way
+[0:42:05] and do it very quickly
+[0:42:07] that's a weird thing and they evolved
+[0:42:09] that way because you know in the
+[0:42:10] beginning
+[0:42:11] i mean that's a great invention just the
+[0:42:13] protein itself yes i mean and then they
+[0:42:15] there's i think probably a history of
+[0:42:18] like uh they evolved
+[0:42:21] to have many of these proteins and those
+[0:42:22] proteins figure out how to be computers
+[0:42:25] themselves
+[0:42:26] in such a way that you can create
+[0:42:27] structures that can interact in
+[0:42:29] complexes with each other in order to
+[0:42:30] form high level functions i mean it's a
+[0:42:32] weird system that they figured it out
+[0:42:35] well for sure i mean we you know maybe
+[0:42:37] we should talk about the origins of life
+[0:42:38] too but proteins themselves i think are
+[0:42:40] magical and incredible uh uh uh as i
+[0:42:43] said little little bio-nano machines and
+[0:42:45] um
+[0:42:46] and and actually levantal who is another
+[0:42:49] scientist uh uh a contemporary of
+[0:42:51] anfinsen uh he he coined this eleventh
+[0:42:54] house what became known as levantal's
+[0:42:56] paradox which is exactly what you're
+[0:42:57] saying he calculated roughly a protein
+[0:43:00] an average protein which is maybe 2 000
+[0:43:02] amino acids
+[0:43:03] bases long is um
+[0:43:06] is is can fold in maybe 10 to the power
+[0:43:08] 300 different conformations so there's
+[0:43:11] 10 to the power 300 different ways that
+[0:43:13] protein could fold up and yet somehow in
+[0:43:15] nature physics solves this solves this
+[0:43:18] in a matter of milliseconds so proteins
+[0:43:21] fold up in your body in you know
+[0:43:22] sometimes in fractions of a second so
+[0:43:26] physics is somehow solving that search
+[0:43:28] problem and just to be clear in many of
+[0:43:30] these cases maybe you correct me if i'm
+[0:43:32] wrong there's often a unique way
+[0:43:35] for that sequence to form itself yes so
+[0:43:38] among that huge number of possibilities
+[0:43:40] yes it figures out a way how to
+[0:43:42] stability
+[0:43:44] uh
+[0:43:45] in some cases there might be a
+[0:43:46] misfunction so on which leads to a lot
+[0:43:48] of the disorders and stuff like that but
+[0:43:50] yes most of the time it's a unique
+[0:43:51] mapping and that unique mapping is not
+[0:43:53] obvious no exactly that's just what the
+[0:43:56] problem is exactly so there's a unique
+[0:43:58] mapping usually in a healthy in if it's
+[0:44:01] healthy and as you say in disease
+[0:44:03] so for example alzheimer's one one one
+[0:44:06] conjecture is that it's because of a
+[0:44:07] misfolded protein a protein that folds
+[0:44:09] in the wrong way amyloid beta protein so
+[0:44:12] um and then because it falls in the
+[0:44:14] wrong way it gets tangled up right in
+[0:44:15] your in your neurons so
+[0:44:18] um it's super important to understand
+[0:44:20] both healthy functioning and also
+[0:44:23] disease is to understand uh you know
+[0:44:25] what what these things are doing and how
+[0:44:26] they're structuring of course the next
+[0:44:28] step is sometimes proteins change shape
+[0:44:30] when they interact with something so um
+[0:44:32] they're not just static necessarily in
+[0:44:34] in biology
+[0:44:37] maybe you can give some interesting sort
+[0:44:39] of beautiful things to you about these
+[0:44:42] early days of alpha fold of of solving
+[0:44:45] this problem because
+[0:44:46] unlike games this is
+[0:44:48] real physical systems that are less
+[0:44:52] amenable to
+[0:44:53] self-play type of mechanisms
+[0:44:56] the the size of the data set is smaller
+[0:44:58] that you might otherwise like so you
+[0:44:59] have to be very clever about certain
+[0:45:01] things is there something you could
+[0:45:02] speak to um
+[0:45:04] what was very hard to solve and what are
+[0:45:07] some beautiful aspects about the the
+[0:45:09] solution yeah i would say alpha fold is
+[0:45:11] the most complex and also probably most
+[0:45:13] meaningful system we've built so far so
+[0:45:16] it's been an amazing time actually in
+[0:45:17] the last you know two three years to see
+[0:45:19] that come through because um as we
+[0:45:22] talked about earlier you know games is
+[0:45:23] what we started on uh building things
+[0:45:25] like alphago and alpha zero but really
+[0:45:28] the ultimate goal was to um not just to
+[0:45:30] crack games it was just to to to build
+[0:45:33] use them to bootstrap general learning
+[0:45:34] systems we could then apply to real
+[0:45:36] world challenges specifically my passion
+[0:45:39] is scientific challenges like protein
+[0:45:41] folding and then alpha fold of course is
+[0:45:43] our first big proof point of that and so
+[0:45:46] um you know in terms of the data uh and
+[0:45:49] the amount of innovations that had to go
+[0:45:50] into it we you know it was like more
+[0:45:52] than 30 different component algorithms
+[0:45:54] needed to be put together to crack the
+[0:45:56] protein folding um i think some of the
+[0:45:58] big innovations were that um
+[0:46:00] kind of building in some hard coded
+[0:46:03] constraints around physics and
+[0:46:05] evolutionary biology um to constrain
+[0:46:08] sort of things like the bond angles uh
+[0:46:11] uh in the in the in the protein and
+[0:46:13] things like that um
+[0:46:15] a lot but not to impact the learning
+[0:46:17] system so still allowing uh the system
+[0:46:19] to be able to learn the physics uh
+[0:46:22] itself um from the examples that we had
+[0:46:25] and the examples as you say there are
+[0:46:26] only about 150 000 proteins even after
+[0:46:29] 40 years of experimental biology only
+[0:46:31] around 150 000 proteins have been the
+[0:46:33] structures have been found out about so
+[0:46:35] that was our training set which is um
+[0:46:38] much less than normally we would like to
+[0:46:40] use
+[0:46:40] but using various tricks things like
+[0:46:42] self distillation so actually using
+[0:46:45] alpha folds predictions um some of the
+[0:46:48] best predictions that it thought was
+[0:46:50] highly confident in we put them back
+[0:46:51] into the training set right to make the
+[0:46:53] training set bigger
+[0:46:55] that was critical to to alpha fold
+[0:46:57] working so there was actually a huge
+[0:46:59] number of different um uh innovations
+[0:47:02] like that that were required to to
+[0:47:04] ultimately crack the problem after fold
+[0:47:06] one what it produced was a distagram so
+[0:47:09] a kind of
+[0:47:11] a matrix of the pairwise distances
+[0:47:13] between all of the molecules in the in
+[0:47:16] the in the protein and then there had to
+[0:47:18] be a separate optimization process to uh
+[0:47:21] create the 3d structure
+[0:47:23] and what we did for alpha volt2 is make
+[0:47:25] it truly end to end so we went straight
+[0:47:27] from the amino acid sequence of of of
+[0:47:30] bases to
+[0:47:32] the 3d structure directly without going
+[0:47:34] through this intermediate step and in
+[0:47:36] machine learning what we've always found
+[0:47:38] is that the more end to end you can make
+[0:47:40] it the better the system and it's
+[0:47:42] probably because um we you know the in
+[0:47:45] the end the system is better at learning
+[0:47:47] what the constraints are than than we
+[0:47:49] are as the human designers of specifying
+[0:47:51] it so anytime you can let it flow end to
+[0:47:53] end and actually just generate what it
+[0:47:55] is you're really looking for in this
+[0:47:56] case the 3d structure you're better off
+[0:47:58] than having this intermediate step which
+[0:48:00] you then have to hand craft the next
+[0:48:02] step for so
+[0:48:04] so it's better to let the gradients and
+[0:48:05] the learning flow all the way through
+[0:48:07] the system um from the end point the end
+[0:48:09] output you want to the inputs so that's
+[0:48:10] a good way to start a new problem
+[0:48:12] handcraft a bunch of stuff add a bunch
+[0:48:14] of manual constraints with a small
+[0:48:17] intent learning piece or a small
+[0:48:19] learning piece and grow that learning
+[0:48:21] piece until it consumes the whole thing
+[0:48:22] that's right and so you can also see you
+[0:48:25] know this is a bit of a method we've
+[0:48:26] developed over doing many sort of
+[0:48:28] successful outfits we call them alpha x
+[0:48:30] projects right is and the easiest way to
+[0:48:33] see that is the evolution of alphago to
+[0:48:35] alpha zero so alphago was um a learning
+[0:48:39] system but it was specifically trained
+[0:48:40] to only play go right so uh and what we
+[0:48:43] wanted to do with first version of go is
+[0:48:45] just get to world champion performance
+[0:48:47] no matter how we did it right and then
+[0:48:49] and then of course alphago zero we we we
+[0:48:52] removed the need to use human games as a
+[0:48:54] starting point right so it could just
+[0:48:56] play against itself from random starting
+[0:48:59] point from the beginning so that removed
+[0:49:00] the the need for human knowledge uh
+[0:49:02] about go and then finally alpha zero
+[0:49:04] then generalized it so that any things
+[0:49:07] we had in there the system including
+[0:49:09] things like symmetry of the go board uh
+[0:49:11] were removed so the alpha zero could
+[0:49:13] play from scratch any two player game
+[0:49:15] and then mu0 which is the final
+[0:49:17] latest version of that set of things was
+[0:49:19] then extending it so that you didn't
+[0:49:21] even have to give it the rules of the
+[0:49:22] game it would learn that for itself so
+[0:49:24] it could also deal with computer games
+[0:49:26] as well as board games so that line of
+[0:49:28] alpha golf goes zero alpha zero mu zero
+[0:49:31] that's the full trajectory of what you
+[0:49:33] can take from
+[0:49:35] uh imitation learning
+[0:49:37] to full self
+[0:49:39] supervised learning yeah exactly and
+[0:49:41] learning learning uh the entire
+[0:49:44] structure of the environment you put in
+[0:49:46] from scratch right and and and and
+[0:49:48] bootstrapping it uh through self-play uh
+[0:49:51] yourself but the thing is it would have
+[0:49:52] been impossible i think or very hard for
+[0:49:54] us to build alpha zero or mu0 first out
+[0:49:57] of the box
+[0:49:58] even psychologically because you have to
+[0:50:00] believe in yourself for a very long time
+[0:50:03] you're constantly dealing with doubt
+[0:50:04] because a lot of people say that it's
+[0:50:05] impossible exactly so it was hard enough
+[0:50:07] just to do go as you were saying
+[0:50:09] everyone thought that was impossible or
+[0:50:10] at least a decade away um from when we
+[0:50:13] when we did it back in 2015 24 you know
+[0:50:16] 2016 and um
+[0:50:18] and so yes it would have been
+[0:50:20] psychologically probably very difficult
+[0:50:21] as well as the fact that of course we
+[0:50:23] learnt a lot by building alphago first
+[0:50:26] right so it's i think this is why i call
+[0:50:28] ai in engineering science it's one of
+[0:50:30] the most fascinating science disciplines
+[0:50:32] but it's also an engineering science in
+[0:50:33] the sense that unlike natural sciences
+[0:50:36] um the phenomenon you're studying it
+[0:50:38] doesn't exist out in nature you have to
+[0:50:39] build it first so you have to build the
+[0:50:41] artifact first and then you can study
+[0:50:43] how how and pull it apart and how it
+[0:50:45] works this is tough to uh
+[0:50:49] ask you this question because you
+[0:50:50] probably will say it's everything but
+[0:50:51] let's let's try let's try to think to
+[0:50:54] this because you're in a very
+[0:50:55] interesting position where deepmind is
+[0:50:57] the place of some of the most uh
+[0:50:58] brilliant ideas in the history of ai but
+[0:51:01] it's also a place of brilliant
+[0:51:03] engineering
+[0:51:05] so how much of solving intelligence this
+[0:51:08] big goal for deepmind how much of it is
+[0:51:11] science how much is engineering so how
+[0:51:13] much is the algorithms how much is the
+[0:51:15] data how much is the
+[0:51:17] hardware compute infrastructure how much
+[0:51:20] is it the software computer
+[0:51:21] infrastructure yeah um what else is
+[0:51:24] there how much is the human
+[0:51:25] infrastructure
+[0:51:27] and like just the humans interact in
+[0:51:29] certain kinds of ways in all the space
+[0:51:30] of all those ideas how much does maybe
+[0:51:32] like philosophy how much what's the key
+[0:51:35] if um
+[0:51:37] uh
+[0:51:38] if if you were to sort of look back like
+[0:51:40] if we go forward 200 years look back
+[0:51:43] what was the key thing that solved
+[0:51:45] intelligence is that ideas
+[0:51:47] i think it's a combination first of all
+[0:51:49] of course it's a combination of all
+[0:51:50] those things but the the ratios of them
+[0:51:52] changed over over time
+[0:51:54] so yeah so um even in the last 12 years
+[0:51:57] so we started deep mine in 2010 which is
+[0:51:59] hard to imagine now because 2010 it's
+[0:52:01] only 12 short years ago but nobody was
+[0:52:04] talking about ai uh you know if you
+[0:52:05] remember back to your mit days you know
+[0:52:07] no one was talking about it i did a
+[0:52:08] postdoc at mit back around then and it
+[0:52:11] was sort of thought of as a well look we
+[0:52:13] know ai doesn't work we tried this hard
+[0:52:14] in the 90s at places like mit mostly
+[0:52:17] losing using logic systems and
+[0:52:19] old-fashioned sort of good old-fashioned
+[0:52:20] ai we would call it now um people like
+[0:52:22] minsky and and and patrick winston and
+[0:52:25] you know all these characters right and
+[0:52:26] used to debate a few of them and they
+[0:52:28] used to think i was mad thinking about
+[0:52:29] that some new advance could be done with
+[0:52:31] learning systems and um i was actually
+[0:52:33] pleased to hear that because at least
+[0:52:35] you know you're on a unique track at
+[0:52:36] that point right even if every all of
+[0:52:38] your you know professors are telling you
+[0:52:40] you're mad that's true and of course in
+[0:52:42] industry uh you can we couldn't get you
+[0:52:44] know as difficult to get two cents
+[0:52:46] together uh and which is hard to imagine
+[0:52:48] now as well given it's the biggest sort
+[0:52:49] of buzzword in in vcs and and
+[0:52:52] fundraising's easy and all these kind of
+[0:52:53] things today so
+[0:52:55] back in 2010 it was very difficult and
+[0:52:57] what we the reason we started then and
+[0:52:59] shane and i used to discuss um uh uh
+[0:53:02] what were the sort of founding tenets of
+[0:53:03] deep mind and it was very various things
+[0:53:06] one was um algorithmic advances so deep
+[0:53:08] learning you know jeff hinton and cohen
+[0:53:10] just had just sort of invented that in
+[0:53:12] academia but no one in industry knew
+[0:53:14] about it uh we love reinforcement
+[0:53:16] learning we thought that could be scaled
+[0:53:17] up but also understanding about the
+[0:53:19] human brain had advanced um quite a lot
+[0:53:21] uh in the decade prior with fmri
+[0:53:24] machines and other things so we could
+[0:53:25] get some good hints about architectures
+[0:53:28] and algorithms and and sort of um
+[0:53:31] representations maybe that the brain
+[0:53:32] uses so as at a systems level not at a
+[0:53:35] implementation level um and then the
+[0:53:38] other big things were compute and gpus
+[0:53:40] right so we could see a compute was
+[0:53:42] going to be really useful and it got to
+[0:53:44] a place where it became commoditized
+[0:53:46] mostly through the games industry and
+[0:53:48] and that could be taken advantage of and
+[0:53:50] then the final thing was also
+[0:53:51] mathematical and theoretical definitions
+[0:53:53] of intelligence so things like ai xi aix
+[0:53:57] which uh shane worked on with his
+[0:53:58] supervisor marcus hutter which is a sort
+[0:54:00] of theoretical uh proof really of
+[0:54:03] universal intelligence um which is
+[0:54:05] actually a reinforcement learning system
+[0:54:07] um in the limit i mean it assumes
+[0:54:09] infinite compute and infinite memory in
+[0:54:10] the way you know like a turing machine
+[0:54:12] proof but i was also waiting to see
+[0:54:14] something like that too to you know like
+[0:54:16] turing machines uh and and computation
+[0:54:19] theory that people like turing and
+[0:54:20] shannon came up with underpins modern
+[0:54:22] computer science um uh you know i was
+[0:54:24] waiting for a theory like that to sort
+[0:54:26] of underpin agi research so when i you
+[0:54:29] know met shane and saw he was working on
+[0:54:30] something like that you know that to me
+[0:54:32] was a sort of final piece of the jigsaw
+[0:54:34] so
+[0:54:35] in the early days i would say that
+[0:54:37] ideas were the most important uh you
+[0:54:40] know and for us it was deep
+[0:54:41] reinforcement learning scaling up deep
+[0:54:43] learning um of course we've seen
+[0:54:45] transformers so huge leaps i would say
+[0:54:47] you know three or four from for if you
+[0:54:49] think from 2010 until now uh huge
+[0:54:51] evolutions things like alphago um and um
+[0:54:55] and and maybe there's a few more still
+[0:54:57] needed but as we get closer to ai agi um
+[0:55:02] i think engineering becomes more and
+[0:55:04] more important and data because scale
+[0:55:06] and of course the the recent you know
+[0:55:08] results of gpt3 and all the big language
+[0:55:10] models and large models including our
+[0:55:12] ones uh has shown that scale is a is and
+[0:55:15] large models are clearly going to be
+[0:55:17] unnecessary but perhaps not sufficient
+[0:55:20] part of an agi solution and
+[0:55:23] throughout that like you said and i'd
+[0:55:25] like to give you a big thank you you're
+[0:55:27] one of the pioneers in this is
+[0:55:29] sticking by ideas like reinforcement
+[0:55:32] learning that this can actually work
+[0:55:34] given actually
+[0:55:36] limited success in the past
+[0:55:38] and also
+[0:55:40] which we still don't know but
+[0:55:42] proudly
+[0:55:44] having the best researchers in the world
+[0:55:47] and talking about solving intelligence
+[0:55:49] so talking about whatever you call it
+[0:55:51] agi or something like this
+[0:55:53] that speaking of mit that's that's just
+[0:55:55] something not you wouldn't bring up no
+[0:55:58] uh not not maybe you did in uh like 40
+[0:56:02] 50 years ago
+[0:56:04] but that was
+[0:56:05] um
+[0:56:07] ai was a place where you do tinkering
+[0:56:09] very small scale not very ambitious
+[0:56:12] projects and
+[0:56:14] maybe the biggest ambitious projects
+[0:56:16] were in the space of robotics and doing
+[0:56:18] like the darpa challenge sure but the
+[0:56:19] task of solving intelligence and
+[0:56:21] believing you can
+[0:56:23] that's really really powerful so
+[0:56:25] in order for engineering to do its work
+[0:56:27] to have great engineers build great
+[0:56:30] systems you have to have that belief
+[0:56:32] that threats throughout the whole thing
+[0:56:34] that you can actually solve some of
+[0:56:35] these impossible challenges yeah that's
+[0:56:37] right and and back in 2010 you know our
+[0:56:39] mission statement um and still is today
+[0:56:42] you know it was used to be uh solving
+[0:56:44] step one solve intelligence step two use
+[0:56:46] it to solve everything else yes so if
+[0:56:48] you can imagine pitching that to a vc in
+[0:56:49] 2010 you know the kind of looks we we
+[0:56:52] got we managed to you know find a few uh
+[0:56:54] kooky people to back us but it was uh it
+[0:56:56] was tricky and and i and i got to the
+[0:56:58] point where we we wouldn't mention it to
+[0:57:00] any of our professors because they would
+[0:57:02] just eye roll and think we you know
+[0:57:04] committed career suicide and and uh and
+[0:57:07] and you know so it was there's a lot of
+[0:57:08] things that we had to do but we always
+[0:57:10] believed it and one reason you know by
+[0:57:12] the way one reason we i believe i've
+[0:57:14] always believed in reinforcement
+[0:57:15] learning is that
+[0:57:17] that if you look at neuroscience that is
+[0:57:19] the way that the you know primate brain
+[0:57:22] learns one of the main mechanisms is the
+[0:57:23] dopamine system implement some form of
+[0:57:25] td learning a very famous result in the
+[0:57:27] late 90s uh where they saw this in
+[0:57:30] monkeys and uh and as a you know proper
+[0:57:33] game prediction error so we you know
+[0:57:35] again in the limit this is this is what
+[0:57:37] i think you can use neuroscience for is
+[0:57:39] is you know any at mathematics you when
+[0:57:41] you're when you're doing something as
+[0:57:42] ambitious as trying to solve
+[0:57:43] intelligence and you're you're you know
+[0:57:45] it's blue sky research no one knows how
+[0:57:46] to do it you you you need to use any
+[0:57:49] evidence or any source of information
+[0:57:51] you can to help guide you in the right
+[0:57:53] direction or give you confidence you're
+[0:57:55] going in the right direction so so that
+[0:57:57] that was one reason we pushed so hard on
+[0:57:59] that and that's and just going back to
+[0:58:01] your early question about organization
+[0:58:03] the other big thing that i think we
+[0:58:04] innovated with at deepmind to encourage
+[0:58:07] invention and and uh and innovation was
+[0:58:10] the multi-disciplinary organization we
+[0:58:12] built and we still have today so
+[0:58:14] deepmind originally was a confluence of
+[0:58:16] the of the most cutting-edge knowledge
+[0:58:18] in neuroscience with machine learning
+[0:58:20] engineering and mathematics right and
+[0:58:23] and gaming
+[0:58:24] and then since then we built that out
+[0:58:25] even further so we have philosophers
+[0:58:27] here and and uh by you know ethicists
+[0:58:30] but also other types of scientists
+[0:58:31] physicists and so on um and that's what
+[0:58:34] brings together i tried to build a sort
+[0:58:36] of um new type of bell labs but in this
+[0:58:39] golden era right uh
+[0:58:41] and and a new expression of that um to
+[0:58:43] try and uh foster this incredible sort
+[0:58:46] of innovation machine so talking about
+[0:58:48] the humans in the machine
+[0:58:50] the mind itself is a learning machine
+[0:58:52] with a lots of amazing human minds in it
+[0:58:55] coming together to try and build these
+[0:58:57] uh learning systems
+[0:59:00] if we return to
+[0:59:02] the big ambitious dream of alpha fold
+[0:59:04] that may be the early steps on a very
+[0:59:07] long journey in um
+[0:59:09] in biology
+[0:59:12] do you think the same kind of approach
+[0:59:14] can use to predict the structure and
+[0:59:15] function of more complex biological
+[0:59:17] systems so multi-protein interaction
+[0:59:21] and then
+[0:59:22] i mean you can go out from there just
+[0:59:24] simulating bigger and bigger systems
+[0:59:26] that eventually simulate something like
+[0:59:28] the human brain or the human body just
+[0:59:31] the big mush the mess of the beautiful
+[0:59:34] resilient mesobiology do do you see that
+[0:59:37] as a long-term vision i do and i think
+[0:59:40] um
+[0:59:41] you know if you think about what are the
+[0:59:42] things top things i wanted to apply ai
+[0:59:44] ai2 once we had powerful enough systems
+[0:59:47] biology and curing diseases and
+[0:59:49] understanding biology uh was right up
+[0:59:52] there you know top of my list that's one
+[0:59:54] of the reasons i personally pushed that
+[0:59:56] myself and with alpha fold but i think
+[0:59:58] alpha fold uh amazing as it is is just
+[1:00:01] the beginning um and and and i hope it's
+[1:00:04] evidence of uh what could be done with
+[1:00:07] computational methods so um you know
+[1:00:10] alpha fold solve this this huge problem
+[1:00:12] of the structure of proteins but biology
+[1:00:14] is dynamic so really what i imagine from
+[1:00:16] here we're working on all these things
+[1:00:18] now is protein protein interaction uh
+[1:00:21] protein ligand binding so reacting with
+[1:00:24] molecules um then you want to get build
+[1:00:26] up to pathways and then eventually a
+[1:00:28] virtual cell that's my dream uh maybe in
+[1:00:31] the next 10 years and i've been talking
+[1:00:33] actually to a lot of biologists friends
+[1:00:34] of mine paul nurse who runs the qrik
+[1:00:36] institute amazing biologist nobel prize
+[1:00:38] winning biologist we've been discussing
+[1:00:39] for 20 years now virtual cells could you
+[1:00:42] build a virtual simulation of a cell and
+[1:00:44] if you could that would be incredible
+[1:00:46] for biology and disease discovery
+[1:00:47] because you could do loads of
+[1:00:48] experiments on the virtual cell and then
+[1:00:51] only at the last stage validate it in
+[1:00:52] the wet lab so you could you know in
+[1:00:55] terms of the search space of discovering
+[1:00:56] new drugs you know it takes 10 years
+[1:00:58] roughly to go from uh uh to to go from
+[1:01:01] uh you know identifying a target to uh
+[1:01:04] having a drug candidate um maybe that
+[1:01:06] could be shortened to you know by an
+[1:01:08] order of magnitude with if you could do
+[1:01:10] most of that that that work in silico so
+[1:01:13] in order to get to a virtual cell
+[1:01:15] we have to build up uh uh understanding
+[1:01:18] of different parts of biology and the
+[1:01:19] interactions and and um so you know
+[1:01:22] every every few years we talk about this
+[1:01:24] with i talked about this with paul and
+[1:01:25] then finally last year after alpha fault
+[1:01:27] i said now is the time we can finally go
+[1:01:30] for it and and alpha falls the first
+[1:01:31] proof point that this might be possible
+[1:01:33] uh and he's very excited when we have
+[1:01:34] some collaborations with his with his
+[1:01:36] lab they're just across the road
+[1:01:38] actually from us as you know wonderful
+[1:01:39] being here in king's cross with the
+[1:01:41] quick institute across the road and um
+[1:01:43] and i think the next steps you know i
+[1:01:45] think there's going to be some amazing
+[1:01:47] advances in biology built on top of
+[1:01:49] things like alpha fold uh we're already
+[1:01:51] seeing that with the community doing
+[1:01:52] that after we've open sourced it and
+[1:01:54] released it um and uh you know i also i
+[1:01:57] often say that i think
+[1:01:59] uh if you think of mathematics is the
+[1:02:02] perfect description language for physics
+[1:02:04] i think ai might be end up being the
+[1:02:06] perfect description language for biology
+[1:02:09] because
+[1:02:10] biology is so messy it's so emergent so
+[1:02:13] dynamic and complex um i think i find it
+[1:02:15] very hard to believe we'll ever get to
+[1:02:17] something as elegant as newton's laws of
+[1:02:19] motions to describe a cell right it's
+[1:02:21] just too complicated um so i think ai is
+[1:02:24] the right tool for this you have to uh
+[1:02:26] you have to start at the basic building
+[1:02:28] blocks and use ai to run the simulation
+[1:02:31] for all those building blocks so have a
+[1:02:34] very strong way to do prediction of what
+[1:02:36] given these building blocks what kind of
+[1:02:37] biology how the
+[1:02:39] the function
+[1:02:40] and the evolution of that biological
+[1:02:42] system
+[1:02:43] it's almost like a cellular automata you
+[1:02:45] have to run you can't analyze it from a
+[1:02:47] high level you have to take the basic
+[1:02:49] ingredients figure out the rules yeah
+[1:02:51] and let it run but in this case the
+[1:02:52] rules are very difficult to figure out
+[1:02:54] yes yes learn them that's exactly it so
+[1:02:56] it's the biology is too complicated to
+[1:02:59] figure out the rules it's it's it's too
+[1:03:01] emergent too dynamic say compared to a
+[1:03:04] physics system like the motion of a
+[1:03:05] planet yeah right and and so you have to
+[1:03:08] learn the rules and that's exactly the
+[1:03:09] type of systems that we're building so
+[1:03:11] you you mentioned you've open sourced
+[1:03:13] alpha fold and even the data involved
+[1:03:16] to me personally also
+[1:03:19] really happy and a big thank you for
+[1:03:21] open sourcing mijoko
+[1:03:22] uh the physics simulation engine that's
+[1:03:25] that's often used for robotics research
+[1:03:28] and so on so i think that's a pretty
+[1:03:29] gangster move uh so what what's the
+[1:03:33] what's i mean this uh
+[1:03:35] very few companies or people would do
+[1:03:38] that kind of thing what's the philosophy
+[1:03:40] behind that you know it's a case-by-case
+[1:03:42] basis and in both those cases we felt
+[1:03:44] that was the maximum benefit to humanity
+[1:03:46] to do that and and the scientific
+[1:03:48] community in one case the robotics uh
+[1:03:51] physics community with mojoco so
+[1:03:53] purchased it we purchased
+[1:03:55] to obs we purchased it for the express
+[1:03:57] principle to open source it so
+[1:03:59] um so
+[1:04:00] you know i hope people appreciate that
+[1:04:02] it's great to hear that you do and then
+[1:04:04] the second thing was and mostly we did
+[1:04:06] it because the person building it is uh
+[1:04:08] uh would not it was not able to cope
+[1:04:10] with supporting it anymore because it
+[1:04:12] was it got too big for him his amazing
+[1:04:14] professor uh who who built it in the
+[1:04:16] first place so we helped him out with
+[1:04:17] that and then with alpha folds even
+[1:04:19] bigger i would say and i think in that
+[1:04:21] case we decided that there were so many
+[1:04:24] downstream applications of alpha fold um
+[1:04:27] that we couldn't possibly even imagine
+[1:04:29] what they all were so the best way to
+[1:04:31] accelerate uh drug discovery and also
+[1:04:34] fundamental research would be to to um
+[1:04:38] give all that data away and and and the
+[1:04:40] and the and the system itself um you
+[1:04:43] know it's been so gratifying to see what
+[1:04:45] people have done that within just one
+[1:04:46] year which is a short amount of time in
+[1:04:48] science and uh it's been used by
+[1:04:51] over 500 000 researchers have used it we
+[1:04:54] think that's almost every biologist in
+[1:04:55] the world i think there's roughly 500
+[1:04:57] 000 biologists in the world professional
+[1:04:59] biologists have used it to to look at
+[1:05:01] their proteins of interest
+[1:05:04] we've seen amazing fundamental research
+[1:05:06] done so a couple of weeks ago front
+[1:05:08] cover there was a whole special issue of
+[1:05:10] science including the front cover which
+[1:05:12] had the nuclear pore complex on it which
+[1:05:14] is one of the biggest proteins in the
+[1:05:15] body the nuclear poor complex is a
+[1:05:17] protein that governs all the nutrients
+[1:05:19] going in and out of your cell nucleus so
+[1:05:22] they're like little hole gateways that
+[1:05:23] open and close to let things go in and
+[1:05:25] out of your cell nucleus so they're
+[1:05:27] really important but they're huge
+[1:05:29] because they're massive doughnut rings
+[1:05:30] shaped things and they've been looking
+[1:05:32] to try and figure out that structure for
+[1:05:34] decades and they have lots of you know
+[1:05:36] experimental data but it's too low
+[1:05:37] resolution there's bits missing and they
+[1:05:39] were able to like a giant lego jigsaw
+[1:05:42] puzzle use alpha fold predictions plus
+[1:05:44] experimental data and combined those two
+[1:05:47] independent sources of information uh
+[1:05:49] actually four different groups around
+[1:05:50] the world were able to put it together
+[1:05:52] the sec more or less simultaneously
+[1:05:54] using alpha fault predictions so that's
+[1:05:56] been amazing to see and pretty much
+[1:05:58] every pharma company every drug company
+[1:06:00] executive i've spoken to has said that
+[1:06:01] their teams are using alpha fold to
+[1:06:03] accelerate whatever drugs uh uh they're
+[1:06:06] trying to discover so i think the
+[1:06:08] knock-on effect has been enormous in
+[1:06:11] terms of uh the impact that uh
+[1:06:14] alpha-fold has made and it's probably
+[1:06:15] bringing in it's creating biologists
+[1:06:17] it's bringing more people into the field
+[1:06:19] um
+[1:06:20] both on the excitement and both on the
+[1:06:22] technical skills involved
+[1:06:24] and um
+[1:06:25] it's almost like uh a gateway drug to
+[1:06:27] biology yes it is you get more
+[1:06:30] computational people involved too
+[1:06:31] hopefully and and i think for us you
+[1:06:33] know the next stage as i said you know
+[1:06:35] in future we have to have other
+[1:06:37] considerations too we're building on top
+[1:06:38] of alpha fold and these other ideas i
+[1:06:40] discussed with you about protein protein
+[1:06:42] interactions and and genomics and other
+[1:06:44] things and not everything will be open
+[1:06:45] source some of it will will do
+[1:06:47] commercially because that will be the
+[1:06:48] best way to actually get the most
+[1:06:49] resources and impact behind it in other
+[1:06:51] ways some other projects will do
+[1:06:53] non-profit style um and also we have to
+[1:06:56] consider for future things as well
+[1:06:58] safety and ethics as well like but you
+[1:07:00] know synthetic biology there are you
+[1:07:02] know there is dual use and we have to
+[1:07:04] think about that as well with alpha fold
+[1:07:05] we you know we consulted with 30
+[1:07:07] different bioethicists and and other
+[1:07:09] people expert in this field to make sure
+[1:07:10] it was safe before um we released it so
+[1:07:13] there'll be other considerations in
+[1:07:14] future but for right now you know i
+[1:07:16] think alpha fold is a kind of a gift
+[1:07:18] from us to to to the scientific
+[1:07:20] community so i'm pretty sure
+[1:07:22] that
+[1:07:22] something like alpha fold
+[1:07:25] uh would be part of nobel prizes in the
+[1:07:27] future
+[1:07:29] but us humans of course are horrible
+[1:07:31] with credit assignment so we'll of
+[1:07:32] course give it to the humans
+[1:07:35] do you think there will be a day
+[1:07:37] when ai system
+[1:07:40] can't be denied
+[1:07:42] that it earned that nobel prize do you
+[1:07:45] think we'll see that in 21st century it
+[1:07:47] depends what type of ais we end up
+[1:07:49] building right whether they're um
+[1:07:52] you know goal seeking agents who
+[1:07:53] specifies the goals uh who comes up with
+[1:07:56] the hypotheses
+[1:07:57] who you know who determines which
+[1:07:59] problems to tackle right so i think it's
+[1:08:01] about an announcement yeah so it's
+[1:08:02] announcing the results exactly as part
+[1:08:04] of it um so i think right now of course
+[1:08:07] it's it's it's it's amazing human
+[1:08:10] ingenuity that's behind these systems
+[1:08:12] and then the system in my opinion is
+[1:08:13] just a tool you know it'd be a bit like
+[1:08:15] saying with galileo and his telescope
+[1:08:18] you know the ingenuity the the the
+[1:08:19] credit should go to the telescope i mean
+[1:08:21] it's clearly galileo building the tool
+[1:08:23] which he then uses
+[1:08:25] so i still see that in the same way
+[1:08:26] today even though these tools learn for
+[1:08:28] themselves um they're i think i think of
+[1:08:31] things like alpha fold and that the
+[1:08:33] things we're building as the ultimate
+[1:08:35] tools for science and for acquiring new
+[1:08:38] knowledge to help us as scientists
+[1:08:39] acquire new knowledge i think one day
+[1:08:42] there will come a point where
+[1:08:44] an ai system may solve or come up with
+[1:08:46] something like general relativity of its
+[1:08:49] own bat not just by
+[1:08:51] averaging everything on the internet or
+[1:08:52] averaging everything on pubmed
+[1:08:55] although that would be interesting to
+[1:08:56] see what that would come up with um so
+[1:08:58] that to me is a bit like our earlier
+[1:09:00] debate about creativity you know
+[1:09:02] inventing go rather than just coming up
+[1:09:04] with a good go move and um so i think uh
+[1:09:08] solving i think to to you know if we
+[1:09:10] wanted to give it the credit of like a
+[1:09:12] nobel type of thing then it would need
+[1:09:13] to invent go uh and sort of invent that
+[1:09:16] new conjecture out of the blue um rather
+[1:09:19] than being specified by the the human
+[1:09:22] scientists or the human creators so i
+[1:09:23] think right now that's it's definitely
+[1:09:25] just a tool although it is interesting
+[1:09:27] how far you get by averaging everything
+[1:09:28] on the internet like you said because
+[1:09:30] you know
+[1:09:31] a lot of people do see science as you're
+[1:09:33] always standing on the shoulders of
+[1:09:34] giants and
+[1:09:36] the question is how much are you really
+[1:09:38] reaching
+[1:09:40] up above the shoulders of giants maybe
+[1:09:42] it's just assimilating different kinds
+[1:09:44] of
+[1:09:45] results of the past
+[1:09:47] with ultimately this new perspective
+[1:09:49] that gives you this breakthrough idea
+[1:09:50] but that idea may not be
+[1:09:53] novel in the way that we can't be
+[1:09:55] already discovered on the internet maybe
+[1:09:56] the nobel prizes
+[1:09:58] of the next 100 years are already all
+[1:10:00] there on the internet to be discovered
+[1:10:03] they could be they could be i mean i
+[1:10:05] think um
+[1:10:07] this is one of the big mysteries i think
+[1:10:08] is that uh
+[1:10:10] uh i i first of all i believe a lot of
+[1:10:12] the big new breakthroughs that are going
+[1:10:13] to come in the next few decades and even
+[1:10:15] in the last decade are going to come at
+[1:10:17] the intersection between different
+[1:10:18] subject areas where um there'll be some
+[1:10:21] new connection that's found between what
+[1:10:24] seemingly with disparate areas and and
+[1:10:26] one can even think of deep mind as i
+[1:10:28] said earlier as a sort of
+[1:10:29] interdisciplinary between neuroscience
+[1:10:31] ideas and ai engineering ideas uh
+[1:10:34] originally and so um so i think there's
+[1:10:37] that and then one of the things we can't
+[1:10:39] imagine today is and one of the reasons
+[1:10:41] i think people we were so surprised by
+[1:10:42] how well large models worked is that
+[1:10:44] actually
+[1:10:46] it's very hard for our human minds our
+[1:10:47] limited human minds to understand what
+[1:10:49] it would be like to read the whole
+[1:10:50] internet right i think we can do a
+[1:10:52] thought experiment and i used to do this
+[1:10:54] of like well what if i read the whole of
+[1:10:56] wikipedia
+[1:10:57] what would i know and i think our minds
+[1:10:59] can just about comprehend maybe what
+[1:11:00] that would be like but the whole
+[1:11:02] internet is beyond comprehension so i
+[1:11:04] think we just don't understand what it
+[1:11:06] would be like to be able to hold all of
+[1:11:08] that in mind potentially right and then
+[1:11:11] active at once and then maybe what are
+[1:11:13] the connections that are available there
+[1:11:15] so i think no doubt there are huge
+[1:11:17] things to be discovered just like that
+[1:11:19] but i do think there is this other type
+[1:11:21] of creativity of true spark of new
+[1:11:23] knowledge new idea never thought before
+[1:11:26] about can't be average from things that
+[1:11:28] are known um that really of course
+[1:11:30] everything come you know nobody creates
+[1:11:32] in a vacuum so there must be clues
+[1:11:34] somewhere but just a unique way of
+[1:11:36] putting those things together i think
+[1:11:38] some of the greatest scientists in
+[1:11:39] history have displayed that i would say
+[1:11:42] although it's very hard to know going
+[1:11:44] back to their time what was exactly
+[1:11:45] known uh when they came up with those
+[1:11:47] things although
+[1:11:50] you're making me really think because
+[1:11:51] just the thought experiment of deeply
+[1:11:53] knowing a hundred wikipedia pages
+[1:11:57] i don't think i can um
+[1:11:59] i've been really impressed by wikipedia
+[1:12:01] for for technical topics yeah so if you
+[1:12:03] know a hundred pages or a thousand pages
+[1:12:06] i don't think who can visually truly
+[1:12:09] comprehend what's
+[1:12:11] what kind of intelligence that is that's
+[1:12:13] a pretty powerful intelligence if you
+[1:12:14] know how to use that and integrate that
+[1:12:16] information correctly yes i think you
+[1:12:18] can go really far you can probably
+[1:12:20] construct thought experiments based on
+[1:12:22] that
+[1:12:23] like simulate different ideas so if this
+[1:12:26] is true let me run this thought
+[1:12:28] experiment then maybe this is true it's
+[1:12:30] not really invention it's like just
+[1:12:32] taking literally the knowledge and using
+[1:12:35] it to construct a very basic simulation
+[1:12:37] of the world i mean some argue it's
+[1:12:39] romantic in part but einstein would do
+[1:12:41] the same kind of things with a thought
+[1:12:43] experiment yeah one could imagine doing
+[1:12:45] that systematically across millions of
+[1:12:47] wikipedia pages plus pubmed all these
+[1:12:49] things i think there are
+[1:12:52] many many things to be discovered like
+[1:12:53] that they're hugely useful you know you
+[1:12:55] could imagine and i want us to do some
+[1:12:57] of those things in material science like
+[1:12:58] room temperature superconductors or
+[1:13:00] something on my list one day i'd like to
+[1:13:02] like you know have an ai system to help
+[1:13:04] build better optimized batteries all of
+[1:13:06] these sort of mechanical things mr i
+[1:13:08] think a systematic sort of search could
+[1:13:11] be uh
+[1:13:13] guided by a model could be um could be
+[1:13:15] extremely powerful so speaking of which
+[1:13:18] you have a paper on nuclear fusion
+[1:13:20] uh magnetic control of tokamak plasmas
+[1:13:22] to deep reinforcement learning so you uh
+[1:13:26] you're seeking to solve nuclear fusion
+[1:13:28] with deep rl
+[1:13:29] so it's doing control of high
+[1:13:30] temperature plasmas can you explain this
+[1:13:32] work
+[1:13:33] and uh can ai eventually solve nuclear
+[1:13:35] fusion
+[1:13:37] it's been very fun last year or two and
+[1:13:39] very productive because we've been
+[1:13:40] taking off a lot of my
+[1:13:42] dream projects if you like of things
+[1:13:44] that i've collected over the years of
+[1:13:45] areas of science that i would like to i
+[1:13:48] think could be very transformative if we
+[1:13:49] helped accelerate and uh really
+[1:13:52] interesting problems scientific
+[1:13:53] challenges in of themselves
+[1:13:55] this is energy so energy yes exactly so
+[1:13:58] energy and climate so we talked about
+[1:14:00] disease and biology as being one of the
+[1:14:02] biggest places i think ai can help with
+[1:14:04] i think energy and climate uh is another
+[1:14:06] one so maybe they would be my top two um
+[1:14:09] and fusion is one one area i think ai
+[1:14:11] can help with now fusion has many
+[1:14:14] challenges mostly physics material
+[1:14:16] science and engineering challenges as
+[1:14:18] well to build these massive fusion
+[1:14:19] reactors and contain the plasma and what
+[1:14:21] we try to do whenever we go into a new
+[1:14:23] field
+[1:14:24] to apply our systems is we look for um
+[1:14:27] we talk to domain experts we try and
+[1:14:29] find the best people in the world to
+[1:14:30] collaborate with um
+[1:14:32] in this case in fusion we we
+[1:14:34] collaborated with epfl in switzerland
+[1:14:36] the swiss technical institute who are
+[1:14:37] amazing they have a test reactor that
+[1:14:39] they were willing to let us use which
+[1:14:41] you know i double checked with the team
+[1:14:43] we were going to use carefully and
+[1:14:44] safely
+[1:14:45] i was impressed they managed to persuade
+[1:14:47] them to let us use it and um and it's a
+[1:14:50] it's an amazing test reactor they have
+[1:14:52] there and they try all sorts of pretty
+[1:14:55] crazy experiments on it and um the the
+[1:14:58] the what we tend to look at is if we go
+[1:14:59] into a new domain like fusion what are
+[1:15:02] all the bottleneck problems uh like
+[1:15:04] thinking from first principles you know
+[1:15:05] what are all the bottleneck problems
+[1:15:06] that are still stopping fusion working
+[1:15:08] today and then we look at we you know we
+[1:15:10] get a fusion expert to tell us and then
+[1:15:12] we look at those bottlenecks and we look
+[1:15:13] at the ones which ones are amenable to
+[1:15:16] our ai methods today yes right and and
+[1:15:19] and then and would be interesting from a
+[1:15:21] research perspective from our point of
+[1:15:22] view from an ai point of view and that
+[1:15:24] would address one of their bottlenecks
+[1:15:26] and in this case plasma control was was
+[1:15:28] perfect so you know the plasma it's a
+[1:15:31] million degrees celsius something like
+[1:15:32] that it's hotter than the sun
+[1:15:34] and there's obviously no material that
+[1:15:36] can contain it so they have to be
+[1:15:38] containing these magnetic very powerful
+[1:15:40] superconducting magnetic fields but the
+[1:15:42] problem is plasma is pretty unstable as
+[1:15:44] you imagine you're kind of holding a
+[1:15:46] mini sun mini star in a reactor so you
+[1:15:49] know you you kind of want to predict
+[1:15:51] ahead of time
+[1:15:52] what the plasma's going to do so you can
+[1:15:54] move the magnetic field within a few
+[1:15:56] milliseconds you know to to basically
+[1:15:59] contain what it's going to do next so it
+[1:16:01] seems like a perfect problem if you
+[1:16:02] think of it for like a reinforcement
+[1:16:04] learning prediction problem so uh you
+[1:16:06] know your controller you're gonna move
+[1:16:08] the magnetic field and until we came
+[1:16:10] along you know they were they were doing
+[1:16:12] it with with traditional operational uh
+[1:16:14] research type of uh controllers uh which
+[1:16:16] are kind of handcrafted and the problem
+[1:16:18] is of course they can't react in the
+[1:16:20] moment to something the plasma's doing
+[1:16:21] that they have to be hard-coded and
+[1:16:23] again knowing that that's normally our
+[1:16:25] go-to solution is we would like to learn
+[1:16:26] that instead and they also had a
+[1:16:28] simulator of these plasma so there were
+[1:16:30] lots of criteria that matched what we we
+[1:16:32] like to to to use
+[1:16:34] so can ai eventually solve nuclear
+[1:16:37] fusion well so we with this problem and
+[1:16:39] we published it in a nature paper last
+[1:16:41] year uh we held the fusion that we held
+[1:16:44] the plasma in specific shapes so
+[1:16:46] actually it's almost like carving the
+[1:16:47] plasma into different shapes and control
+[1:16:50] and hold it there for the record amount
+[1:16:52] of time so um so that's one of the
+[1:16:54] problems of of fusion sort of um solved
+[1:16:57] so i have a controller that's able to no
+[1:16:59] matter the shape uh contain it continue
+[1:17:02] yeah contain it and hold it in structure
+[1:17:04] and there's different shapes that are
+[1:17:05] better for for the energy productions
+[1:17:07] called droplets and and and so on so um
+[1:17:10] so that was huge and now we're looking
+[1:17:12] we're talking to lots of fusion startups
+[1:17:14] to see what's the next problem we can
+[1:17:16] tackle uh in the fusion area
+[1:17:19] so another fascinating place
+[1:17:22] in a paper title pushing the frontiers
+[1:17:23] of density functionals by solving the
+[1:17:25] fractional electron problem so you're
+[1:17:27] taking on
+[1:17:29] modeling and simulating the quantum
+[1:17:31] mechanical behavior of electrons yes
+[1:17:34] um
+[1:17:35] can you explain this work and can ai
+[1:17:38] model and simulate arbitrary quantum
+[1:17:40] mechanical systems in the future yeah so
+[1:17:42] this is another problem i've had my eye
+[1:17:44] on for you know a decade or more which
+[1:17:47] is um
+[1:17:48] uh sort of simulating the properties of
+[1:17:50] electrons if you can do that you can
+[1:17:52] basically describe how elements and
+[1:17:55] materials and substances work so it's
+[1:17:58] kind of like fundamental if you want to
+[1:18:00] advance material science um and uh you
+[1:18:03] know we have schrodinger's equation and
+[1:18:05] then we have approximations to that
+[1:18:06] density functional theory these things
+[1:18:08] are you know are famous and um people
+[1:18:11] try and write approximations to to these
+[1:18:14] uh uh to these functionals and and kind
+[1:18:16] of come up with descriptions of the
+[1:18:18] electron clouds where they're gonna go
+[1:18:20] how they're gonna interact when you put
+[1:18:22] two elements together uh and what we try
+[1:18:24] to do is learn a simulation uh uh
+[1:18:27] learner functional that will describe
+[1:18:29] more chemistry types of chemistry so um
+[1:18:32] until now you know you can run expensive
+[1:18:34] simulations but then you can only
+[1:18:36] simulate very small uh molecules very
+[1:18:38] simple molecules we would like to
+[1:18:40] simulate large materials um and so uh
+[1:18:43] today there's no way of doing that and
+[1:18:45] we're building up towards uh building
+[1:18:47] functionals that approximate
+[1:18:49] schrodinger's equation and then allow
+[1:18:52] you to describe uh what the electrons
+[1:18:54] are doing
+[1:18:55] and all materials sort of science and
+[1:18:57] material properties are governed by the
+[1:18:59] electrons and and how they interact so
+[1:19:02] have a good summarization of the
+[1:19:04] simulation through the functional
+[1:19:07] um
+[1:19:08] but one that is still
+[1:19:10] close to what the actual simulation
+[1:19:12] would come out with so what um
+[1:19:15] how difficult is that to ask what's
+[1:19:16] involved in that task is it running
+[1:19:18] those
+[1:19:18] those complicated simulations yeah and
+[1:19:21] learning the task of mapping from the
+[1:19:23] initial conditions and the parameters of
+[1:19:25] the simulation learning what the
+[1:19:26] functional would be yeah so it's pretty
+[1:19:28] tricky and we've done it with um you
+[1:19:31] know the nice thing is we there are we
+[1:19:32] can run a lot of the simulations that
+[1:19:35] the molecular dynamics simulations on
+[1:19:37] our compute clusters and so that
+[1:19:39] generates a lot of data so in this case
+[1:19:41] the data is generated so we like those
+[1:19:44] sort of systems and that's why we use
+[1:19:45] games simulator generated data
+[1:19:48] and we can kind of create as much of it
+[1:19:49] as we want really um and just let's
+[1:19:52] leave some you know if any computers are
+[1:19:54] free in the cloud we just run we run
+[1:19:56] some of these calculations right compute
+[1:19:58] cluster calculation that's all the the
+[1:20:00] free compute times used up on quantum
+[1:20:01] mechanics quantum mechanics exactly
+[1:20:03] simulations and protein simulations and
+[1:20:05] other things and so um and so you know
+[1:20:08] when you're not searching on youtube for
+[1:20:10] video cat videos we're using those
+[1:20:11] computers usefully and quantum chemistry
+[1:20:13] that's the idea
+[1:20:14] and and putting them for good use and
+[1:20:17] then yeah and then all of that
+[1:20:18] computational data that's generated we
+[1:20:20] can then try and learn the functionals
+[1:20:22] from that which of course are way more
+[1:20:24] efficient
+[1:20:25] once we learn the functional than um
+[1:20:28] running those simulations would be
+[1:20:30] do you think one day ai may allow us to
+[1:20:33] do something like basically crack open
+[1:20:35] physics so do something like travel
+[1:20:37] faster than the speed of light
+[1:20:39] my ultimate aim has always been with ai
+[1:20:41] is
+[1:20:42] um the reason i am personally working on
+[1:20:45] ai for my whole life it was to build a
+[1:20:47] tool to help us understand stand the
+[1:20:49] universe so i wanted to and that means
+[1:20:52] physics really and the nature of reality
+[1:20:54] so
+[1:20:55] um
+[1:20:56] uh i don't think we have systems that
+[1:20:58] are capable of doing that yet but when
+[1:20:59] we get towards agi i think um that's one
+[1:21:02] of the first things i think we should
+[1:21:03] apply agi to
+[1:21:05] i would like to test the limits of
+[1:21:06] physics and our knowledge of physics
+[1:21:08] there's so many things we don't know
+[1:21:09] there's one thing i find fascinating
+[1:21:11] about science and you know as a huge
+[1:21:13] proponent of the scientific method as
+[1:21:15] being one of the greatest ideas
+[1:21:16] humanity's ever had and allowed us to
+[1:21:18] progress with our knowledge
+[1:21:20] but i think as a true scientist i think
+[1:21:22] what you find is the more you find out
+[1:21:24] uh you the more you realize we don't
+[1:21:26] know
+[1:21:26] and and i always think that it's
+[1:21:29] surprising that more people don't aren't
+[1:21:30] troubled you know every night i think
+[1:21:32] about all these things we interact with
+[1:21:34] all the time that we have no idea how
+[1:21:36] they work time
+[1:21:37] consciousness gravity
+[1:21:40] life we can't i mean these are all the
+[1:21:42] fundamental things of nature i think the
+[1:21:44] way we don't really know what they are
+[1:21:47] to live life we uh pin certain
+[1:21:50] assumptions on them and kind of treat
+[1:21:52] our assumptions as if they're a fact
+[1:21:54] yeah that allows us to sort of box them
+[1:21:56] off somehow yeah box them off
+[1:21:58] but the reality is when you think of
+[1:22:01] time
+[1:22:02] you should remind yourself you should
+[1:22:04] put it off the sh
+[1:22:05] take it off the shelf and realize like
+[1:22:07] no we have a bunch of assumptions
+[1:22:08] there's still a lot of there's even now
+[1:22:10] a lot of debate there's a lot of
+[1:22:11] uncertainty about exactly what is time
+[1:22:15] uh is there an error of time you know
+[1:22:17] there's there's a lot of fundamental
+[1:22:19] questions you can't just make
+[1:22:20] assumptions about and maybe
+[1:22:22] ai allows you to um
+[1:22:25] not put anything on the shelf
+[1:22:27] yeah not make any uh hard assumptions
+[1:22:30] and really open it up and see what
+[1:22:31] exactly i think we should be truly
+[1:22:33] open-minded about that and uh exactly
+[1:22:36] that not be dogmatic to a particular
+[1:22:38] theory
+[1:22:39] um it'll also allow us to build better
+[1:22:42] tools experimental tools eventually
+[1:22:45] that can then test certain theories that
+[1:22:47] may not be testable today about as
+[1:22:49] things about like
+[1:22:50] what we spoke about at the beginning
+[1:22:52] about the computational nature of the
+[1:22:53] universe how one might if that was true
+[1:22:56] how one might go about testing that
+[1:22:58] right and and how much uh you know there
+[1:23:00] are people who've conjectured people
+[1:23:01] like uh scott aronson and others about
+[1:23:04] uh you know how much information can a
+[1:23:06] specific planck unit of space and time
+[1:23:08] contain right so one might be able to
+[1:23:10] think about testing those ideas if you
+[1:23:13] had um
+[1:23:14] ai helping you build some new exquisite
+[1:23:18] uh uh experimental tools this is what i
+[1:23:20] imagine you know many decades from now
+[1:23:22] we'll be able to do
+[1:23:24] and what kind of
+[1:23:25] questions can be answered through
+[1:23:26] running a simulation
+[1:23:28] of of them so there's a bunch of physics
+[1:23:31] simulations you can imagine that could
+[1:23:32] be run
+[1:23:33] in an uh so some kind of efficient way
+[1:23:36] much like you're doing in the quantum
+[1:23:38] simulation work
+[1:23:41] and perhaps even the origin of life so
+[1:23:43] figuring out how
+[1:23:44] going even back before the work of alpha
+[1:23:47] fault begins of how this whole whole
+[1:23:49] thing
+[1:23:51] um emerges from a rock yes from a static
+[1:23:54] thing would what do you do you think ai
+[1:23:56] will allow us to is that something you
+[1:23:58] have your eye on it's trying to
+[1:24:00] understand the origin of life first of
+[1:24:02] all yourself
+[1:24:03] what do you think
+[1:24:05] um
+[1:24:06] how the heck did life originate on earth
+[1:24:08] yeah well maybe we i'll come to that in
+[1:24:10] a second but i think the ultimate
+[1:24:12] use of ai is to
+[1:24:14] kind of use it to accelerate science to
+[1:24:17] the maximum so i
+[1:24:19] um think of it a little bit like the
+[1:24:21] tree of all knowledge if you imagine
+[1:24:22] that's all the knowledge there is in the
+[1:24:24] universe to attain
+[1:24:25] and we sort of barely scratched the
+[1:24:27] surface of that so far in even though
+[1:24:30] you know we've we've done pretty well
+[1:24:31] since the enlightenment right as
+[1:24:33] humanity and i think ai will turbo
+[1:24:35] charge all of that like we've seen with
+[1:24:37] alpha fold and i want to explore as much
+[1:24:40] of that tree of knowledge as it's
+[1:24:41] possible to do and um and i think that
+[1:24:44] involves ai helping us with with with
+[1:24:47] understanding or finding patterns um but
+[1:24:49] also potentially designing and building
+[1:24:51] new tools experimental tools so i think
+[1:24:53] that's all uh
+[1:24:55] and also running simulations and
+[1:24:57] learning simulations all of that we're
+[1:24:59] already we're sort of doing it at a at a
+[1:25:02] at a you know baby steps level here but
+[1:25:05] i can imagine that in in in the decades
+[1:25:07] to come as uh you know what's the full
+[1:25:10] flourishing of of that line of thinking
+[1:25:12] it's going to be truly incredible i
+[1:25:14] would say if i visualize this tree of
+[1:25:16] knowledge something tells me that that
+[1:25:18] knowledge for tree of knowledge for
+[1:25:20] humans is much smaller
+[1:25:22] in the set of all possible trees of
+[1:25:24] knowledge is actually quite small giving
+[1:25:27] our cognitive
+[1:25:28] limitations
+[1:25:31] limited cognitive capabilities that even
+[1:25:34] with with the tools we build we still
+[1:25:35] won't be able to understand a lot of
+[1:25:37] things and that's perhaps what non-human
+[1:25:40] systems might be able to reach farther
+[1:25:42] not just as tools
+[1:25:44] but in themselves understanding
+[1:25:46] something that they can bring back yeah
+[1:25:48] it could well be so i mean there's so
+[1:25:51] many things that that are sort of
+[1:25:53] encapsulated in what you just said there
+[1:25:54] i think first of all um
+[1:25:57] there's there's two different things
+[1:25:58] there's like what do we understand today
+[1:25:59] yeah what could the human mind
+[1:26:01] understand and what is the totality of
+[1:26:03] what is there to be understood yeah
+[1:26:05] right and so there's three consensus you
+[1:26:08] know you can think of them as three
+[1:26:09] larger and larger trees or exploring
+[1:26:11] more branches of that tree and i i think
+[1:26:13] with ai we're going to explore that
+[1:26:14] whole lot now the question is is uh you
+[1:26:17] know if you think about what is the
+[1:26:19] totality of what could be understood um
+[1:26:22] there may be some fundamental physics
+[1:26:24] reasons why certain things can't be
+[1:26:25] understood like what's outside the
+[1:26:27] simulation or outside the universe maybe
+[1:26:29] it's not understandable from within the
+[1:26:31] universe
+[1:26:32] so that's there may be some hard
+[1:26:33] constraints like that you know it could
+[1:26:34] be smaller constraints like
+[1:26:36] um we think of space time as fundamental
+[1:26:40] us our human brains are really used to
+[1:26:42] this idea of a three-dimensional world
+[1:26:43] with time right
+[1:26:45] maybe but our tools could go beyond that
+[1:26:47] they wouldn't have that limitation
+[1:26:49] necessary they could think in 11
+[1:26:50] dimensions 12 dimensions whatever is
+[1:26:52] needed but um we could still maybe
+[1:26:54] understand that in several different
+[1:26:56] ways the example i always give is um
+[1:26:58] when i you know play gary kasparov at
+[1:27:00] speed chess or we've talked about chess
+[1:27:02] and these kind of things um you know he
+[1:27:04] if you if you if you're reasonably good
+[1:27:06] at chess you can um you can't come up
+[1:27:09] with the move gary comes up with in his
+[1:27:11] move but he can explain it to you and
+[1:27:13] you can understand and you can
+[1:27:14] understand post hoc the reasoning yeah
+[1:27:16] so so i think there's a there's an even
+[1:27:18] further level of like well maybe you
+[1:27:19] couldn't have invented that thing but
+[1:27:21] but using like going back to using
+[1:27:23] language again perhaps you can
+[1:27:24] understand and appreciate that same way
+[1:27:27] like you can appreciate you know vivaldi
+[1:27:29] or mozart or something without you can
+[1:27:31] appreciate the beauty of that without um
+[1:27:33] being able to to construct it yourself
+[1:27:35] right invent the music yourself so i
+[1:27:37] think we see this in all forms of life
+[1:27:39] so it'll be that times you know
+[1:27:41] a million but it would you can imagine
+[1:27:43] also one sign of intelligence is the
+[1:27:46] ability to explain things clearly and
+[1:27:48] simply right you know people like
+[1:27:49] richard feynman another one of my
+[1:27:50] all-time heroes used to say that right
+[1:27:52] if you can't you know if you can explain
+[1:27:54] it something simply then you that's a
+[1:27:56] that's the best sign a complex topic
+[1:27:58] simply then that's one of the best signs
+[1:27:59] of you understanding it yeah so i can
+[1:28:01] see myself talking trash in the ai
+[1:28:03] system in that way yes uh
+[1:28:05] it gets frustrated how dumb i am and
+[1:28:08] trying to explain something to me i was
+[1:28:09] like well that means you're not
+[1:28:10] intelligent because if you were
+[1:28:12] intelligent you'd be able to explain it
+[1:28:13] simply yeah of course you know there's
+[1:28:15] also the other option of course we could
+[1:28:17] enhance ourselves and and without
+[1:28:18] devices we we are already sort of
+[1:28:21] symbiotic with our compute devices right
+[1:28:23] with our phones and other things and you
+[1:28:25] know this stuff like neural link and etc
+[1:28:27] that could be could could advance that
+[1:28:28] further um so i think there's lots of
+[1:28:31] lots of really amazing possibilities uh
+[1:28:33] that i could foresee from here well let
+[1:28:35] me ask you some wild questions so out
+[1:28:37] there
+[1:28:38] looking for friends
+[1:28:39] do you think there's a lot of alien
+[1:28:41] civilizations out there
+[1:28:43] so i guess this also goes back to your
+[1:28:45] origin of life question too because i
+[1:28:46] think that that's key
+[1:28:48] um
+[1:28:49] my personal opinion looking at all this
+[1:28:51] and and you know it's one of my hobbies
+[1:28:52] physics i guess so so i i you know it's
+[1:28:55] something i think about a lot and talk
+[1:28:57] to a lot of experts on and and and read
+[1:28:59] a lot of books on and i think
+[1:29:02] my feeling currently is that that we are
+[1:29:04] alone i think that's the most likely
+[1:29:06] scenario given what what evidence we
+[1:29:08] have so um and the reasoning is i think
+[1:29:11] that
+[1:29:12] you know we've tried since uh things
+[1:29:14] like seti program and i guess since the
+[1:29:17] dawning of the the space age uh we've
+[1:29:20] you know had telescopes open radio
+[1:29:21] telescopes and other things and if you
+[1:29:24] think about um and try to detect signals
+[1:29:27] now if you think about the evolution of
+[1:29:28] humans on earth we could have easily
+[1:29:31] been um a million years ahead of our
+[1:29:34] time now or million years behind quite
+[1:29:36] easily with just some slightly different
+[1:29:38] quirk thing happening hundreds of
+[1:29:40] thousands years ago uh you know things
+[1:29:42] could have been slightly different if
+[1:29:43] the bto had hit the dinosaurs a million
+[1:29:45] years earlier maybe things would have
+[1:29:46] evolved uh we'd be a million years
+[1:29:49] ahead of where we are now so what that
+[1:29:51] means is if you imagine where humanity
+[1:29:53] will be in a few hundred years let alone
+[1:29:55] a million years especially if we
+[1:29:57] hopefully um
+[1:29:59] you know solve things like climate
+[1:30:00] change and other things and we continue
+[1:30:02] to flourish
+[1:30:04] and we build things like ai and we do
+[1:30:06] space traveling and all of the stuff
+[1:30:07] that that humans have dreamed of for
+[1:30:10] forever right and sci-fi has talked
+[1:30:11] about forever um
+[1:30:14] we will be spreading across the stars
+[1:30:16] right and void neumann famously
+[1:30:18] calculated you know it would only take
+[1:30:19] about a million years if you send out
+[1:30:21] von neumann probes to the nearest you
+[1:30:23] know the nearest uh uh other solar
+[1:30:25] systems and and then they built all they
+[1:30:27] did was build two more versions of
+[1:30:29] themselves and set those two out to the
+[1:30:30] next nearest systems uh you you know
+[1:30:32] within a million years i think you would
+[1:30:33] have one of these probes in every system
+[1:30:35] in the galaxy so it's not actually in
+[1:30:38] cosmo cosmological time that's actually
+[1:30:40] a very short amount of time
+[1:30:42] so and and you know we've people like
+[1:30:43] dyson have thought about constructing
+[1:30:45] dyson spheres around stars to collect
+[1:30:47] all the energy coming out of the star
+[1:30:49] you know that there would be
+[1:30:50] constructions like that would be visible
+[1:30:52] across base um probably even across a
+[1:30:55] galaxy so and then you know if you think
+[1:30:57] about all of our radio television uh
+[1:31:00] emissions that have gone out since since
+[1:31:02] the you know 30s and 40s um imagine a
+[1:31:05] million years of that and now hundreds
+[1:31:08] of civilizations doing that when we
+[1:31:10] opened our ears at the point we got
+[1:31:12] technologically sophisticated enough in
+[1:31:14] the space age we should have
+[1:31:17] heard a cacophony of voices we should
+[1:31:19] have joined that cacophony of voices and
+[1:31:20] what we did we opened our ears and we
+[1:31:22] heard nothing
+[1:31:24] and many people who argue that there are
+[1:31:26] aliens would say well we haven't really
+[1:31:28] done exhaustive search yet and maybe
+[1:31:30] we're looking in the wrong bands and and
+[1:31:32] we've got the wrong devices and we
+[1:31:33] wouldn't notice what an alien form was
+[1:31:35] like to be so different to what we're
+[1:31:37] used to but you know i'm not i don't
+[1:31:39] really buy that that it shouldn't be as
+[1:31:41] difficult as that like we i think we've
+[1:31:43] searched enough there should be if it
+[1:31:44] were everywhere if it was it should be
+[1:31:46] everywhere we should see dyson's fears
+[1:31:48] being put up sun's blinking in and out
+[1:31:50] you know there should be a lot of
+[1:31:51] evidence for those things and then there
+[1:31:53] are other people argue well the sort of
+[1:31:54] safari view of like well we're a
+[1:31:56] primitive species still because we're
+[1:31:57] not space faring yet and and and we're
+[1:32:00] you know there's some kind of globe like
+[1:32:01] universal rule not to interfere star
+[1:32:03] trek rule but like look look we can't
+[1:32:05] even coordinate humans to deal with
+[1:32:07] climate change and we're one species
+[1:32:10] what is the chance that of all of these
+[1:32:12] different human civilization you know
+[1:32:13] alien civilizations they would have the
+[1:32:15] same priorities and and and and agree
+[1:32:18] across you know these kind of matters
+[1:32:20] and even if that was true and we were in
+[1:32:22] some sort of safari for our own good to
+[1:32:25] me that's not much different from the
+[1:32:26] simulation hypothesis because what does
+[1:32:28] it mean the simulation hypothesis i
+[1:32:29] think in its most fundamental level it
+[1:32:31] means what we're seeing is not quite
+[1:32:33] reality right it's something there's
+[1:32:35] something more deeper underlying it
+[1:32:37] maybe computational now if we were in a
+[1:32:40] if we were in a sort of safari park and
+[1:32:42] everything we were seeing was a hologram
+[1:32:44] and it was projected by the aliens or
+[1:32:45] whatever that to me is not much
+[1:32:47] different than thinking we're inside of
+[1:32:49] another universe because we still can't
+[1:32:50] see true reality right i mean there's
+[1:32:53] there's other explanations it could be
+[1:32:55] that
+[1:32:56] the way they're communicating is just
+[1:32:58] fundamentally different that we're too
+[1:32:59] dumb to understand the much better
+[1:33:01] methods of communication they have it
+[1:33:03] could be i mean i mean it's silly to say
+[1:33:06] but
+[1:33:07] our own thoughts could be the methods by
+[1:33:10] which they're communicating like the
+[1:33:11] place from which our ideas writers talk
+[1:33:13] about this like the muse yeah
+[1:33:17] it sounds like very kind of uh
+[1:33:20] wild but it could be thoughts it could
+[1:33:22] be
+[1:33:22] some interactions with our mind that we
+[1:33:25] think are originating from
+[1:33:27] us is actually something that uh
+[1:33:30] is coming from other life forms
+[1:33:32] elsewhere consciousness itself might be
+[1:33:34] that it could be but i don't see any
+[1:33:36] sensible argument to the why why would
+[1:33:38] all of the alien species be using this
+[1:33:41] way yes some of them will be more
+[1:33:42] primitive they would be close to our
+[1:33:43] level you know there would there should
+[1:33:45] be a whole sort of normal distribution
+[1:33:47] of these things right some would be
+[1:33:49] aggressive some would be you know
+[1:33:51] curious others would be very stoical and
+[1:33:54] philosophical because you know maybe
+[1:33:56] they're a million years older than us
+[1:33:57] but it's not it shouldn't be like what i
+[1:34:00] mean one one alien civilization might be
+[1:34:02] like that communicating thoughts and
+[1:34:03] others but i don't see why you know
+[1:34:05] potentially the hundreds there should be
+[1:34:07] would be uniform in this way right it
+[1:34:10] could be a violent dictatorship that the
+[1:34:12] the people the alien civilizations that
+[1:34:15] uh become successful
+[1:34:17] become um
+[1:34:18] [Music]
+[1:34:20] gain the ability to be destructive an
+[1:34:23] order of magnitude more destructive
+[1:34:25] but of course the the sad thought
+[1:34:29] well
+[1:34:30] either humans are very special we took a
+[1:34:33] lot of leaps that arrived at what it
+[1:34:35] means to be human yeah
+[1:34:37] um
+[1:34:38] there's a question there which was the
+[1:34:40] hardest which was the most special but
+[1:34:42] also if others have reached this level
+[1:34:45] and maybe many others have reached this
+[1:34:46] level
+[1:34:47] the great filter
+[1:34:50] that prevented them from going farther
+[1:34:52] to becoming a multi-planetary species or
+[1:34:55] reaching out into the stars
+[1:34:57] and those are really important questions
+[1:34:59] for us whether
+[1:35:01] um
+[1:35:02] whether there's other alien
+[1:35:03] civilizations out there or not this is
+[1:35:05] very useful for us to think about if we
+[1:35:07] destroy ourselves
+[1:35:09] how will we do it and how easy is it to
+[1:35:11] do yeah well you know these are big
+[1:35:13] questions and i've thought about these a
+[1:35:15] lot but the the the interesting thing is
+[1:35:17] that if we're if we're alone
+[1:35:19] that's somewhat comforting from the
+[1:35:21] great filter perspective because it
+[1:35:22] probably means the great filters were
+[1:35:24] are past us and i'm pretty sure they are
+[1:35:26] so that by in going back to your origin
+[1:35:28] of life question there are some
+[1:35:29] incredible things that no one knows how
+[1:35:31] happened like obviously the first
+[1:35:33] life form from chemical soup that seems
+[1:35:36] pretty hard but i would guess the
+[1:35:38] multicellular i wouldn't be that
+[1:35:39] surprised if we saw single
+[1:35:41] single cell sort of life forms elsewhere
+[1:35:43] uh bacteria type things but
+[1:35:45] multicellular life seems incredibly hard
+[1:35:48] that step of you know capturing
+[1:35:49] mitochondria and then sort of using that
+[1:35:51] as part of yourself you know when you've
+[1:35:53] just eaten it would you say that's the
+[1:35:55] biggest
+[1:35:56] the most uh like
+[1:35:59] if if you had to choose one sort of uh
+[1:36:01] hitchhiker's got this galaxy one
+[1:36:03] sentence summary of like oh those clever
+[1:36:06] creatures did this that would be the
+[1:36:07] multilist i think that was probably the
+[1:36:09] one that that's the biggest i mean
+[1:36:10] there's a great book called the 10 grand
+[1:36:12] great inventions of evolution by nick
+[1:36:14] lane and he speculates on 10 10 of these
+[1:36:17] you know what could be great filters um
+[1:36:19] i think that's one i think the the
+[1:36:21] advent of of intelligence and and
+[1:36:24] conscious intelligence and in order you
+[1:36:26] know to us to be able to do science and
+[1:36:27] things like that is huge as well i mean
+[1:36:30] it's only evolved once as far as you
+[1:36:31] know uh in in earth history so that
+[1:36:35] would be a later candidate but there's
+[1:36:37] certainly for the early candidates i
+[1:36:39] think multicellular life forms is huge
+[1:36:41] by the way what it's interesting to ask
+[1:36:42] you if you can hypothesize about
+[1:36:45] what is the origin of intelligence is it
+[1:36:48] uh
+[1:36:49] that we started
+[1:36:51] cooking meat over fire
+[1:36:53] is it that we somehow figured out that
+[1:36:55] we could be very powerful when we start
+[1:36:57] collaborating so cooperation between
+[1:37:00] um our ancestors
+[1:37:03] so that we can overthrow the alpha male
+[1:37:06] uh what is it richard i talked to
+[1:37:08] richard randham who thinks we're all
+[1:37:09] just beta males who figured out how to
+[1:37:11] collaborate to defeat the one the
+[1:37:13] dictator the authoritarian alpha male
+[1:37:16] um that control the tribe um is there
+[1:37:19] other explanation did was there um 2001
+[1:37:22] space out any type of monolith yeah that
+[1:37:24] came down to earth well i i think um i
+[1:37:27] think all of those things you suggest
+[1:37:28] for good candidates fire and and and
+[1:37:30] cooking right so that's clearly
+[1:37:32] important
+[1:37:34] you know energy efficiency yeah cooking
+[1:37:36] our meat and then and then being able to
+[1:37:38] to to be more efficient about eating it
+[1:37:40] and getting it consuming the energy um i
+[1:37:43] think that's huge and then utilizing
+[1:37:45] fire and tools i think you're right
+[1:37:46] about the the tribal cooperation aspects
+[1:37:49] and probably language as part of that
+[1:37:50] yes um because probably that's what
+[1:37:52] allowed us to outcompete neanderthals
+[1:37:54] and and perhaps less cooperative species
+[1:37:56] so um so that may be the case tool
+[1:37:59] making spears axes i think that let us i
+[1:38:02] mean i think it's pretty clear now that
+[1:38:04] humans were responsible for a lot of the
+[1:38:06] extinctions of megafauna um especially
+[1:38:08] in in the americas when humans arrived
+[1:38:11] so uh you can imagine once you discover
+[1:38:14] tool usage how powerful that would have
+[1:38:15] been and how scary for animals so i
+[1:38:18] think all of those could have been
+[1:38:19] explanations for it you know the
+[1:38:21] interesting thing is that it's a bit
+[1:38:23] like general intelligence too is it's
+[1:38:25] very costly to begin with to have a
+[1:38:27] brain
+[1:38:28] and especially a general purpose brain
+[1:38:29] rather than a special purpose one
+[1:38:31] because the amount of energy our brains
+[1:38:32] use i think it's like 20 of the body's
+[1:38:34] energy and it's it's massive and when
+[1:38:36] you're thinking chest one of the funny
+[1:38:37] things that that we used to say is as
+[1:38:39] much as a racing driver uses for a whole
+[1:38:42] you know formula one race if just
+[1:38:44] playing a game of you know serious high
+[1:38:45] level chess which you you know you
+[1:38:46] wouldn't think just sitting there um
+[1:38:49] because the brain's using so much uh
+[1:38:51] energy so in order for an animal an
+[1:38:53] organism to justify that there has to be
+[1:38:55] a huge payoff and the problem with with
+[1:38:59] half a brain or half you know
+[1:39:01] intelligence saying iqs of you know
+[1:39:05] of like a monkey brain it's
+[1:39:07] it's not clear you can justify that
+[1:39:09] evolutionary until you get to the human
+[1:39:11] level brain and so but how do you how do
+[1:39:13] you do that jump it's very difficult
+[1:39:15] which is why i think it's only been done
+[1:39:16] once from the sort of specialized brains
+[1:39:18] that you see in animals to this sort of
+[1:39:20] general purpose chewing powerful brains
+[1:39:23] that humans have um and which allows us
+[1:39:27] to invent the modern modern world um and
+[1:39:30] uh you know it takes a lot to to cross
+[1:39:32] that barrier and i think we've seen the
+[1:39:34] same with ai systems which is that uh
+[1:39:36] maybe until very recently it's always
+[1:39:38] been easier to craft a specific solution
+[1:39:40] to a problem like chess than it has been
+[1:39:42] to build a general learning system that
+[1:39:44] could potentially do many things because
+[1:39:46] initially uh that system will be way
+[1:39:48] worse than uh less efficient than the
+[1:39:51] specialized system so one of the
+[1:39:52] interesting
+[1:39:53] quirks of the human mind of this evolved
+[1:39:57] system is that it appears to be
+[1:39:59] conscious
+[1:40:01] this thing that we don't quite
+[1:40:02] understand but it seems very
+[1:40:05] very special its ability to have a
+[1:40:07] subjective experience that it feels like
+[1:40:09] something
+[1:40:10] to eat a cookie the deliciousness of it
+[1:40:13] or see a color and that kind of stuff do
+[1:40:15] you think in order to solve intelligence
+[1:40:17] we also need to solve consciousness
+[1:40:19] along the way do you think agi systems
+[1:40:22] need to have consciousness in order to
+[1:40:25] be
+[1:40:26] truly intelligent yeah we thought about
+[1:40:28] this a lot actually and um i think that
+[1:40:31] my guess is that consciousness and
+[1:40:33] intelligence are double dissociable so
+[1:40:35] you can have one without the other both
+[1:40:37] ways and i think you can see that with
+[1:40:40] consciousness in that i think some
+[1:40:42] animals and pets if you have a pet dog
+[1:40:44] or something like that you can see some
+[1:40:46] of the higher animals and dolphins
+[1:40:48] things like that are uh have
+[1:40:50] self-awareness and uh very sociable um
+[1:40:54] seem to dream um you know those kinds of
+[1:40:57] a lot of the traits one would regard as
+[1:40:59] being kind of conscious and self-aware
+[1:41:01] um and but yet they're not that smart
+[1:41:04] right uh so they're not that intelligent
+[1:41:06] by by say iq standards or something like
+[1:41:08] that yeah it's also possible that our
+[1:41:10] understanding of intelligence is flawed
+[1:41:12] like putting an iq to it sure maybe the
+[1:41:15] thing that a dog can do
+[1:41:17] is actually gone very far along the path
+[1:41:19] of intelligence and we humans are just
+[1:41:21] able to
+[1:41:22] play chess and maybe write poems right
+[1:41:24] but if we go back to the idea of agi and
+[1:41:26] general intelligence you know dogs are
+[1:41:28] very specialized right most animals are
+[1:41:30] pretty specialized they can be amazing
+[1:41:31] at what they do but they're like kind of
+[1:41:33] elite sports sports people or something
+[1:41:35] right so they do one thing extremely
+[1:41:37] well because their entire brain is is
+[1:41:39] optimized they have somehow convinced
+[1:41:41] the entirety of the human population to
+[1:41:43] feed them and service them so in some
+[1:41:44] way they're controlling yes exactly well
+[1:41:47] we co-evolved to some crazy degree right
+[1:41:49] uh including the the way the dogs you
+[1:41:51] know even even wag their tails and
+[1:41:53] twitch their noses right we find we're
+[1:41:55] finding inexorably cute yeah um but i
+[1:41:58] think um you can also see intelligence
+[1:42:01] on the other side so systems like
+[1:42:02] artificial systems that are amazingly
+[1:42:05] smart at certain things like maybe
+[1:42:07] playing go and chess and other things
+[1:42:09] but they don't feel at all in any shape
+[1:42:12] or form conscious in the way that you
+[1:42:14] know you do to me or i do to you and um
+[1:42:18] and i think actually
+[1:42:20] building ai
+[1:42:21] is uh these intelligent constructs uh is
+[1:42:24] one of the best ways to explore the
+[1:42:25] mystery of consciousness to break it
+[1:42:27] down because um we're going to have
+[1:42:30] devices that are
+[1:42:32] pretty smart at certain things or
+[1:42:34] capable of certain things but
+[1:42:36] potentially won't have any semblance of
+[1:42:39] self-awareness or other things and in
+[1:42:40] fact i would advocate
+[1:42:42] if there's a choice building systems in
+[1:42:44] the first place ai systems that are not
+[1:42:46] conscious to begin with uh are just
+[1:42:49] tools um until we understand them better
+[1:42:52] and the capabilities better so on that
+[1:42:54] topic just not
+[1:42:56] as the ceo of deep mind
+[1:42:59] just as a human being let me ask you
+[1:43:00] about this one particular anecdotal
+[1:43:02] evidence of the google engineer
+[1:43:05] who made a comment
+[1:43:07] or
+[1:43:08] believed that there's some aspect of a
+[1:43:10] language model
+[1:43:11] the lambda language model that exhibited
+[1:43:14] sentience
+[1:43:15] so you said you believe there might be a
+[1:43:17] responsibility to build systems that are
+[1:43:19] not essential and this experience of a
+[1:43:22] particular engineer i think i'd love to
+[1:43:24] get your general opinion on this kind of
+[1:43:26] thing but i think it will happen more
+[1:43:28] and more and more
+[1:43:29] which uh not when engineers but when
+[1:43:31] people out there that don't have an
+[1:43:33] engineering background start interacting
+[1:43:34] with increasingly intelligent systems
+[1:43:37] we anthropomorphize them they they start
+[1:43:39] to have deep impactful
+[1:43:43] um interactions with us in a way that we
+[1:43:45] miss them yeah when they're gone
+[1:43:47] and
+[1:43:48] we sure feel like they're
+[1:43:50] living entities self-aware entities and
+[1:43:53] maybe even we project sentience onto
+[1:43:55] them so what what's your thought about
+[1:43:57] this particular
+[1:43:58] uh system was is uh
+[1:44:01] have you ever met a language model
+[1:44:02] that's sentient
+[1:44:04] no i no no what do you make of the case
+[1:44:07] of when you kind of
+[1:44:08] feel
+[1:44:10] that there's some elements of sentience
+[1:44:11] to this system yeah so this is you know
+[1:44:13] an interesting question and uh uh
+[1:44:15] obviously a very fundamental one so
+[1:44:17] first thing to say is i think that
+[1:44:19] none of the systems we have today i i
+[1:44:21] would say even have one iota of uh
+[1:44:24] semblance of consciousness or sentience
+[1:44:26] that's my personal feeling interacting
+[1:44:28] with them every day so i think that's
+[1:44:30] way premature to be discussing what that
+[1:44:32] engineer talked about i appreciate i
+[1:44:34] think at the moment it's more of a
+[1:44:35] projection of the way our own minds work
+[1:44:37] which is to see
+[1:44:39] uh uh uh sort of purpose and direction
+[1:44:42] in almost anything that we you know our
+[1:44:44] brains are trained to interpret uh
+[1:44:47] agency basically in things uh even the
+[1:44:50] an inanimate thing sometimes and of
+[1:44:52] course with a a language system because
+[1:44:54] language is so fundamental to
+[1:44:56] intelligence that's going to be easy for
+[1:44:57] us to anthropomorphize that
+[1:45:00] i mean back in the day even the first uh
+[1:45:03] you know the dumbest sort of template
+[1:45:04] chatbots ever eliza and and and and the
+[1:45:07] ilk of the original chatbots back in the
+[1:45:09] 60s fooled some people under certain
+[1:45:11] circumstances right they pretended to be
+[1:45:13] a psychologist so just basically rabbit
+[1:45:15] back to you the same question you asked
+[1:45:17] it back to you um
+[1:45:19] and uh some people believe that so i
+[1:45:21] don't think we can this is why i think
+[1:45:23] the turing test is a little bit flawed
+[1:45:24] as a formal test because it depends on
+[1:45:26] the sophistication of the of the judge
+[1:45:28] um whether or not they are qualified to
+[1:45:31] make that distinction so
+[1:45:34] i think we should uh talk to you know
+[1:45:36] the the top philosophers about this
+[1:45:38] people like daniel dennett and uh david
+[1:45:40] chalmers and others who've obviously
+[1:45:41] thought deeply about consciousness of
+[1:45:43] course consciousness itself hasn't been
+[1:45:45] well there's no agreed definition if i
+[1:45:47] was to you know uh speculate about that
+[1:45:51] uh you know i kind of the definite the
+[1:45:53] working definition i like is it's the
+[1:45:55] way information feels when you know it
+[1:45:57] gets processed i think maybe max tegmark
+[1:45:59] came up with that i like that idea i
+[1:46:00] don't know if it helps us get towards
+[1:46:02] any more operational thing but but it's
+[1:46:04] it's it's i think it's a nice way of
+[1:46:06] viewing it um i think we can obviously
+[1:46:08] see from neuroscience certain
+[1:46:10] prerequisites that are required like
+[1:46:11] self-awareness i think is necessary but
+[1:46:14] not sufficient component this idea of a
+[1:46:16] self and other and set of coherent
+[1:46:19] preferences that are coherent over time
+[1:46:22] you know these things are maybe memory
+[1:46:24] um these things are probably needed for
+[1:46:26] a sentient or conscious being um but but
+[1:46:29] the reason that the difficult thing i
+[1:46:31] think for us when we get and i think
+[1:46:32] this is a really interesting
+[1:46:33] philosophical debate is when we get
+[1:46:35] closer to agi and and and you know
+[1:46:38] and and much more powerful systems than
+[1:46:40] we have today
+[1:46:41] um how are we going to make this
+[1:46:43] judgment and one way which is the turing
+[1:46:46] test is sort of a behavioral judgment is
+[1:46:49] is the system exhibiting all the
+[1:46:50] behaviors um that a human sentient uh or
+[1:46:54] a sentient being would would would
+[1:46:55] exhibit um is it answering the right
+[1:46:57] questions is it saying the right things
+[1:46:59] is it indistinguishable from a human um
+[1:47:01] and so on
+[1:47:03] but i think there's a second thing that
+[1:47:05] makes us as humans regard each other as
+[1:47:08] sentient right why do we why do we think
+[1:47:10] this and i debated this with daniel
+[1:47:12] dennett and i think there's a second
+[1:47:13] reason that's often overlooked which is
+[1:47:15] that we're running on the same substrate
+[1:47:17] right so if we're exhibiting the same
+[1:47:19] behavior uh more or less as humans and
+[1:47:22] we're running on the same you know
+[1:47:24] carbon-based biological substrate the
+[1:47:26] squishy you know few pounds of of flesh
+[1:47:28] in our skulls then the most parsimonious
+[1:47:31] i think explanation is that you're
+[1:47:33] feeling the same thing as i'm feeling
+[1:47:34] right but we will never have that second
+[1:47:37] part the substrate equivalence with a
+[1:47:39] machine
+[1:47:40] right so we will have to only judge
+[1:47:42] based on the behavior and i think the
+[1:47:44] substrate equivalence is a critical part
+[1:47:46] of why we make assumptions that we're
+[1:47:48] conscious and in fact even with with
+[1:47:50] animals high-level animals why we think
+[1:47:52] they might be because they're exhibiting
+[1:47:53] some of the behaviors we would expect
+[1:47:54] from a sentient animal and we know
+[1:47:56] they're made of the same things
+[1:47:57] biological neurons so we're gonna have
+[1:47:59] to come up with
+[1:48:01] explanations uh or models of the gap
+[1:48:03] between substrate differences between
+[1:48:06] machines and humans did to get anywhere
+[1:48:09] beyond the behavioral but to me sort of
+[1:48:11] the practical question is
+[1:48:13] very interesting and very important when
+[1:48:16] you have millions perhaps billions of
+[1:48:18] people believing that you have ascension
+[1:48:20] ai believing what that google engineer
+[1:48:22] believed
+[1:48:23] which i just see is an obvious
+[1:48:26] very near-term future thing certainly on
+[1:48:29] the path to agi
+[1:48:31] how does that change the world
+[1:48:33] what's the responsibility of the ai
+[1:48:34] system to help those millions of people
+[1:48:38] and also what's the ethical thing
+[1:48:39] because
+[1:48:40] you can you can make a lot of people
+[1:48:43] happy
+[1:48:44] by creating a meaningful deep experience
+[1:48:48] with a system
+[1:48:49] that's faking it before it makes it yeah
+[1:48:52] and i i don't
+[1:48:54] is a are we the right or who is to say
+[1:48:57] what's the right thing to do should ai
+[1:49:00] always be tools like why why why are we
+[1:49:03] constraining ais to always be tools as
+[1:49:06] opposed to
+[1:49:07] friends yeah i think well i mean these
+[1:49:09] are you know you know fantastic
+[1:49:11] questions and and also critical ones and
+[1:49:14] we've been thinking about this uh since
+[1:49:16] the start of d minor before that because
+[1:49:18] we planned for success and you know how
+[1:49:20] how you know you know however remote
+[1:49:22] that looked like back in 2010 and we've
+[1:49:25] always had sort of these ethical
+[1:49:26] considerations as fundamental at
+[1:49:27] deepmind um and my current thinking on
+[1:49:31] the language models is and and large
+[1:49:32] models is they're not ready we don't
+[1:49:34] understand them well enough yet um and
+[1:49:37] you know in terms of analysis tools and
+[1:49:39] and guard rails what they can and can't
+[1:49:41] do and so on to deploy them at scale
+[1:49:43] because i think you know there are big
+[1:49:46] still ethical questions like should an
+[1:49:47] ai system always announce that it is an
+[1:49:49] ai system to begin with probably yes um
+[1:49:52] it what what do you do about answering
+[1:49:54] those philosophical questions about the
+[1:49:56] feelings uh people may have about ai
+[1:49:58] systems perhaps incorrectly attributed
+[1:50:00] so i think there's a whole bunch of
+[1:50:02] research that needs to be done first um
+[1:50:05] to responsibly before you know you can
+[1:50:07] responsibly deploy these systems at
+[1:50:08] scale that would be at least be my
+[1:50:11] current position
+[1:50:12] over time i'm very confident we'll have
+[1:50:14] those tools like interpretability
+[1:50:16] questions um
+[1:50:18] and uh analysis questions uh and then
+[1:50:21] with the ethical quandary you know i
+[1:50:23] think there
+[1:50:24] it's important to
+[1:50:26] uh look beyond just science that's why i
+[1:50:29] think philosophy social sciences even
+[1:50:31] theology other things like that come
+[1:50:33] into it where um what you know arts and
+[1:50:36] humanities what what does it mean to be
+[1:50:38] human and the spirit of being human and
+[1:50:40] and to enhance that and and the human
+[1:50:42] condition right and allow us to
+[1:50:44] experience things we could never
+[1:50:45] experience before and improve the the
+[1:50:47] overall human condition and humanity
+[1:50:49] overall you know get radical abundance
+[1:50:51] solve many scientific problems solve
+[1:50:53] disease so this is the era i think this
+[1:50:55] is the amazing era i think we're heading
+[1:50:57] into if we do it right um but we've got
+[1:50:59] to be careful we've already seen with
+[1:51:01] things like social media how dual use
+[1:51:03] technologies can be misused by firstly
+[1:51:06] by by by bad you know p bad actors or
+[1:51:09] naive actors or crazy actors right so
+[1:51:12] there's that set of just the common or
+[1:51:14] garden misuse of existing dual use
+[1:51:16] technology and then of course there's an
+[1:51:19] additional uh uh thing that has to be
+[1:51:21] overcome with ai that eventually it may
+[1:51:23] have its own agency so it could be uh uh
+[1:51:26] uh good or bad in in in of itself so i
+[1:51:28] think these questions have to be
+[1:51:30] approached very carefully um using the
+[1:51:33] scientific method i would say in terms
+[1:51:35] of hypothesis generation careful control
+[1:51:37] testing not live a b testing out in the
+[1:51:40] world because with powerful dual
+[1:51:42] technologies like ai
+[1:51:44] if something goes wrong it may cause you
+[1:51:46] know a lot of harm before you can fix it
+[1:51:48] um it's not like a you know an imaging
+[1:51:50] app or game app where you know that if
+[1:51:53] if something goes wrong it's relatively
+[1:51:55] easy to fix and and the harm's
+[1:51:56] relatively small so i think
+[1:51:58] it comes with you know the the the usual
+[1:52:01] uh cliche of like with a lot of power
+[1:52:03] comes a lot of responsibility and i
+[1:52:05] think that's the case here with things
+[1:52:07] like ai given the the enormous
+[1:52:09] opportunity in front of us and i think
+[1:52:11] we need a lot of voices uh and as many
+[1:52:14] inputs into things like the design of
+[1:52:17] the systems and the values
+[1:52:19] they should have and what goals should
+[1:52:20] they be put to um i think as wide a
+[1:52:23] group of voices as possible beyond just
+[1:52:24] the technologies is needed uh to input
+[1:52:27] into that and to have a say in that
+[1:52:28] especially when it comes to deployment
+[1:52:30] of these systems which is when the
+[1:52:32] rubber really hits the road it really
+[1:52:33] affects the general person in the street
+[1:52:35] rather than fundamental research and
+[1:52:37] that's why i say
+[1:52:39] i think as a first step it would be
+[1:52:40] better if we have the choice to build
+[1:52:42] these systems as tools to give and i'm
+[1:52:45] not saying that it should never they
+[1:52:46] should never go beyond tools because of
+[1:52:48] course the potential is there um for it
+[1:52:50] to go way beyond just tools uh but um i
+[1:52:53] think that would be a good first step
+[1:52:55] in order for us to you know allow us to
+[1:52:57] carefully experiment understand what
+[1:52:59] these things can do so the leap between
+[1:53:02] tool to sentient entity being is one
+[1:53:06] should take very careful yes
+[1:53:08] let me ask a dark personal question
+[1:53:10] so you're one of the most brilliant
+[1:53:13] people in the ag community also one of
+[1:53:14] the most
+[1:53:15] kind
+[1:53:16] and uh if i may say sort of loved people
+[1:53:19] in the community that said
+[1:53:22] uh
+[1:53:24] creation of a super intelligent ai
+[1:53:26] system
+[1:53:27] would be one of the most
+[1:53:29] powerful
+[1:53:30] things in the world tools or otherwise
+[1:53:34] and again as the old saying goes power
+[1:53:37] corrupts and absolute power crops
+[1:53:39] absolutely
+[1:53:41] you are
+[1:53:43] likely
+[1:53:45] to be one of the people
+[1:53:47] i would say probably the most likely
+[1:53:49] person to be in the control of such a
+[1:53:51] system
+[1:53:53] do you think about
+[1:53:55] the corrupting nature of power when you
+[1:53:57] talk about these kinds of systems that
+[1:54:00] um as all dictators
+[1:54:02] and people have caused atrocities in the
+[1:54:05] past always think they're doing good
+[1:54:08] but they don't do good because the
+[1:54:09] powers polluted their mind about what is
+[1:54:12] good and what is evil do you think about
+[1:54:14] this stuff or are we just focused on
+[1:54:15] language modeling no i think about them
+[1:54:17] all the time and you know i think
+[1:54:20] what are the defenses against that i
+[1:54:22] think one thing is to remain very
+[1:54:24] grounded and sort of humble uh no matter
+[1:54:26] what you do or achieve and i try to do
+[1:54:29] that i might you know my best friends
+[1:54:31] are still my set of friends from my
+[1:54:32] undergraduate cambridge days my family's
+[1:54:35] you know and and friends are very
+[1:54:37] important
+[1:54:38] um
+[1:54:39] i've always i think trying to be a
+[1:54:40] multi-disciplinary person it helps to
+[1:54:42] keep you humble because no matter how
+[1:54:44] good you are at one topic someone will
+[1:54:46] be better than you at that and it and
+[1:54:48] always relearning a new topic again from
+[1:54:50] scratch is or new field is very humbling
+[1:54:52] right so for me that's been biology over
+[1:54:54] the last five years you know huge area
+[1:54:57] topic and and and it's been and i just
+[1:54:59] love doing that but it helps to keep you
+[1:55:01] grounded like it keeps you open-minded
+[1:55:04] and
+[1:55:05] and then the other important thing is to
+[1:55:06] have a really good amazing set of uh
+[1:55:09] people around you at your company or
+[1:55:10] your organization who are also very
+[1:55:12] ethical and grounded themselves and help
+[1:55:15] to keep you that way
+[1:55:16] and then ultimately just to answer your
+[1:55:18] question i hope we're going to be a big
+[1:55:20] part of of birthing ai and that being
+[1:55:22] the greatest benefit to humanity of any
+[1:55:24] tool or technology ever and and getting
+[1:55:27] us into a world of radical abundance and
+[1:55:29] curing diseases and
+[1:55:31] and and solving many of the big
+[1:55:33] challenges we have in front of us and
+[1:55:34] then ultimately you know help the
+[1:55:36] ultimate flourishing of humanity to
+[1:55:38] travel the stars and find those aliens
+[1:55:40] if they are there and if they're not
+[1:55:41] there find out why they're not there
+[1:55:43] what what is going on here in the
+[1:55:44] universe um this is all to come and and
+[1:55:47] that's what i've always dreamed about um
+[1:55:50] but i don't think i think ai is too big
+[1:55:52] an idea it's not going to be uh there'll
+[1:55:54] be a certain set of pioneers who get
+[1:55:56] there first i hope
+[1:55:57] we're in the vanguard so we can
+[1:55:58] influence how that goes and i think it
+[1:56:00] matters who builds who which which
+[1:56:03] cultures they come from and what values
+[1:56:05] they have uh the builders of ai systems
+[1:56:07] because i think even though the ai
+[1:56:08] system is going to learn for itself most
+[1:56:10] of its knowledge there'll be a residue
+[1:56:12] in the system of the culture and the
+[1:56:14] values of the creators of the system um
+[1:56:17] and there's interesting questions to to
+[1:56:19] discuss about that geopolitically you
+[1:56:21] know different cultures as we're in a
+[1:56:22] more fragmented world than ever
+[1:56:24] unfortunately i think in terms of global
+[1:56:25] cooperation
+[1:56:27] we see that in things like climate where
+[1:56:29] we can't seem to get our act together uh
+[1:56:31] globally to cooperate on these pressing
+[1:56:33] matters i hope that will change over
+[1:56:35] time perhaps you know if we get to an
+[1:56:37] era of radical abundance we don't have
+[1:56:38] to be so competitive anymore maybe we
+[1:56:40] can be more cooperative
+[1:56:42] if resources aren't so scarce it's true
+[1:56:44] that
+[1:56:45] in terms of
+[1:56:46] power corrupting and leading to
+[1:56:48] destructive things it seems that some of
+[1:56:51] the atrocities of the past happen when
+[1:56:53] there's a significant
+[1:56:55] constraint on resources i think that's
+[1:56:56] the first thing i don't think that's
+[1:56:57] enough i think scarcity is one thing
+[1:56:59] that's led to competition destruct you
+[1:57:01] know sort of zero sum game thinking i
+[1:57:03] would like us to all be in a positive
+[1:57:05] sum world and i think for that you have
+[1:57:07] to remove scarcity i don't think that's
+[1:57:08] enough unfortunately to get world peace
+[1:57:10] because there's also other corrupting
+[1:57:12] things like wanting power over people
+[1:57:14] and this kind of stuff which is not
+[1:57:15] necessarily satisfied by by just
+[1:57:18] abundance but i think it will help um
+[1:57:21] and i think uh but i think ultimately ai
+[1:57:23] is not going to be run by any one person
+[1:57:25] or one organization i think it should
+[1:57:27] belong to the world belong to humanity
+[1:57:29] um and i think maybe many there'll be
+[1:57:31] many ways this will happen and
+[1:57:33] ultimately um
+[1:57:35] everybody should have a say in that
+[1:57:37] do you have advice
+[1:57:39] for uh young people in high school and
+[1:57:42] college maybe um
+[1:57:44] if they're interested in ai or
+[1:57:46] interested in having a
+[1:57:48] big impact on the world what they should
+[1:57:51] do to have a career they can be proud of
+[1:57:53] her to have a life they can be proud of
+[1:57:54] i love giving talks to the next
+[1:57:56] generation what i say to them is
+[1:57:58] actually two things i i think the most
+[1:58:00] important things to learn about and to
+[1:58:02] find out about when you're when you're
+[1:58:03] young is what are your true passions is
+[1:58:06] first of all there's two things one is
+[1:58:08] find your true passions and i think you
+[1:58:10] can do that by the way to do that is to
+[1:58:12] explore as many things as possible when
+[1:58:14] you're young and you you have the time
+[1:58:16] and you and you can take those risks um
+[1:58:18] i would also encourage people to look at
+[1:58:20] the finding the connections between
+[1:58:22] things
+[1:58:23] in a unique way i think that's a really
+[1:58:25] great way to find a passion second thing
+[1:58:27] i would say advise is know yourself so
+[1:58:31] spend a lot of time
+[1:58:33] understanding how you work best like
+[1:58:35] what are the optimal times to work what
+[1:58:37] are the optimal ways that you study um
+[1:58:39] what are your how do you deal with
+[1:58:41] pressure
+[1:58:42] sort of test yourself in various
+[1:58:43] scenarios and try and improve your
+[1:58:45] weaknesses but also find out what your
+[1:58:48] unique skills and strengths are and then
+[1:58:51] hone those so then that's what will be
+[1:58:53] your super value in the world later on
+[1:58:55] and if you can then combine those two
+[1:58:57] things and find passions that you're
+[1:58:59] genuinely excited about that intersect
+[1:59:02] with what your unique strong skills are
+[1:59:05] then you're you know you're on to
+[1:59:06] something incredible and and you know i
+[1:59:08] think you can make a huge difference in
+[1:59:10] the world so let me ask about know
+[1:59:12] yourself this is fun this is fun quick
+[1:59:14] questions about day in the life the
+[1:59:17] perfect day the perfect productive day
+[1:59:19] in the life of demise's house yeah maybe
+[1:59:21] uh maybe these days you're um
+[1:59:24] there's a lot involved yeah it may be a
+[1:59:26] slightly younger
+[1:59:28] you could focus on a demonstration
+[1:59:30] project maybe um
+[1:59:33] how early do you wake up are you night
+[1:59:34] owl do you wake up early in the morning
+[1:59:36] what are some interesting habits
+[1:59:38] uh how many dozens of cups of coffees do
+[1:59:41] you drink a day what's the computer um
+[1:59:44] that you use
+[1:59:45] uh what's the setup how many screens
+[1:59:47] what kind of keyboard are we talking uh
+[1:59:50] emacs vim are we talking something more
+[1:59:52] modern so it's a bunch of those
+[1:59:54] questions so maybe uh day in the life
+[1:59:56] what what's the perfect day involved
+[1:59:58] well these days it's quite different
+[2:00:00] from say 10 20 years ago back 10 20
+[2:00:03] years ago it would have been you know a
+[2:00:05] whole day of
+[2:00:08] research individual research or
+[2:00:10] programming doing some experiment
+[2:00:11] neuroscience computer science experiment
+[2:00:13] reading lots of research papers uh and
+[2:00:16] then perhaps at night time you know um
+[2:00:19] reading science fiction books or or uh
+[2:00:23] playing uh some games but lots of focus
+[2:00:26] so like deep focused work on whether
+[2:00:28] it's uh
+[2:00:29] programming or reading research paper
+[2:00:31] yes yes so that would be a lot of
+[2:00:33] debrief you know uh focused work these
+[2:00:35] days for the last sort of i guess you
+[2:00:37] know five to ten years i've actually got
+[2:00:40] quite a structure that works very well
+[2:00:41] for me now which is that um i'm a night
+[2:00:44] complete night out always have been so i
+[2:00:46] optimized for that so you know i get you
+[2:00:48] know i basically do a normal day's work
+[2:00:50] get into work about 11 o'clock and sort
+[2:00:52] of do work to about seven uh in the
+[2:00:55] office uh and i will arrange
+[2:00:57] back-to-back meetings for the entire
+[2:00:59] time of that and with as many me as many
+[2:01:02] people as possible so that's my
+[2:01:03] collaboration management part of the day
+[2:01:06] then i go home uh spend time with the
+[2:01:08] family and friends uh have dinner uh uh
+[2:01:12] relax a little bit and then i start a
+[2:01:14] second day of work i call it my second
+[2:01:15] day work around 10 pm 11 p.m and that's
+[2:01:19] the time till about the small hours of
+[2:01:20] the morning four five in the morning
+[2:01:22] where i will do my thinking and reading
+[2:01:25] a research writing research papers um
+[2:01:28] sadly don't have time to code anymore
+[2:01:30] but it's it's not efficient to to do
+[2:01:32] that uh these days uh given the amount
+[2:01:35] of time i have um but that's when i do
+[2:01:37] you know maybe do the long kind of
+[2:01:40] stretches of of thinking and planning
+[2:01:42] and then probably you know using using
+[2:01:44] email or other things i would set i
+[2:01:45] would fire off a lot of things to my
+[2:01:47] team to deal with the next morning for
+[2:01:49] actually thinking about this overnight
+[2:01:51] we should go for this project or arrange
+[2:01:53] this meeting the next day when you're
+[2:01:54] thinking through a problem are you
+[2:01:56] talking about a sheet of paper or the
+[2:01:57] patent pen is there some independent
+[2:01:59] structure yeah i like processes i still
+[2:02:01] like pencil and paper best for working
+[2:02:03] out things but um these days it's just
+[2:02:06] so efficient to read research papers
+[2:02:07] just on the screen i still often print
+[2:02:09] them out actually i still prefer to
+[2:02:11] mark out things and i find it goes into
+[2:02:13] the brain quick better and sticks in the
+[2:02:15] brain better when you're you're still
+[2:02:17] using physical pen and pencil and paper
+[2:02:19] so you take notes with the i have lots
+[2:02:21] of nodes electronic ones and also um
+[2:02:23] whole stacks of notebooks that
+[2:02:25] um that i use at home yeah on some of
+[2:02:27] these most challenging next steps for
+[2:02:29] example stuff
+[2:02:31] none of us know about that you're
+[2:02:32] working on you're thinking
+[2:02:35] there's some deep thinking required
+[2:02:36] there right like what what is the right
+[2:02:38] problem what is the right approach
+[2:02:41] because you're gonna have to invest a
+[2:02:42] huge amount of time for the whole team
+[2:02:44] they're going to have to pursue this
+[2:02:46] thing what's the right way to do it is
+[2:02:48] is rl going to work here or not yes um
+[2:02:51] what's the right thing to try what's the
+[2:02:53] right benchmark to use yeah we need to
+[2:02:55] construct a benchmark from scratch all
+[2:02:57] those kinds of things yes so i think all
+[2:02:59] those kind of things in the night time
+[2:03:00] phase but also much more um i find i've
+[2:03:04] always found the quiet hours of the
+[2:03:06] morning um when everyone's asleep it's
+[2:03:09] super quiet outside um i love that time
+[2:03:12] it's the golden hours like between like
+[2:03:14] one and three in the morning um put some
+[2:03:16] music on some inspiring music on and
+[2:03:18] then um think these deep thoughts so
+[2:03:21] that's when i would read you know my
+[2:03:23] philosophy books and uh spinoza's my you
+[2:03:26] know recent favorite can all these
+[2:03:28] things i i i you know read about a great
+[2:03:31] uh uh
+[2:03:32] a scientist of history how they did
+[2:03:34] things how they thought things so that's
+[2:03:36] when you do all your create that's when
+[2:03:37] i do all my creative thinking and it's
+[2:03:39] good i think i think people recommend
+[2:03:41] you know you do your your your sort of
+[2:03:43] creative thinking in one block and the
+[2:03:45] way i organize the day that way i don't
+[2:03:47] get interrupted because obviously no one
+[2:03:49] else is up uh at those times so i can i
+[2:03:52] can go uh you know as i can sort of get
+[2:03:55] super deep and super into flow the other
+[2:03:57] nice thing about doing it night time
+[2:03:59] wise is if i'm really uh onto something
+[2:04:02] or i've i've got really deep into
+[2:04:04] something i can choose to extend it and
+[2:04:06] i'll go into six in the morning whatever
+[2:04:08] and then i'll just pay for it the next
+[2:04:10] day yeah cause i'll be a bit tired and i
+[2:04:11] won't be my best but that's fine i can
+[2:04:14] decide looking at my schedule the next
+[2:04:16] day that and given where i'm at with
+[2:04:18] this particular thought or creative idea
+[2:04:20] that i'm going to pay that cost the next
+[2:04:22] day so so i think that's that's more
+[2:04:24] flexible than morning people who do that
+[2:04:27] you know they get up at four in the
+[2:04:28] morning they can also do those golden
+[2:04:30] hours then but then their start of their
+[2:04:32] schedule day starts at breakfast you
+[2:04:33] know 8 a.m whatever they have their
+[2:04:35] first meeting and then it's hard you
+[2:04:36] have to reschedule a day if you're in
+[2:04:38] flow yeah that's going to be i don't
+[2:04:39] have to see that special threat of
+[2:04:41] thoughts that
+[2:04:42] the
+[2:04:43] you're too passionate about you that
+[2:04:44] this is where some of the greatest ideas
+[2:04:46] could potentially come is when you just
+[2:04:48] lose yourself late into yeah
+[2:04:51] and for the meetings i mean you're
+[2:04:53] loading in really hard problems in a
+[2:04:54] very short amount of time so you have to
+[2:04:56] do some kind of first principles
+[2:04:58] thinking here it's like what's the
+[2:04:59] problem what's the state of things
+[2:05:01] what's the right next step yes you have
+[2:05:03] to get really good at context switching
+[2:05:05] which is one of the hardest things
+[2:05:06] because especially as we do so many
+[2:05:08] things if you include all the scientific
+[2:05:10] things we do scientific fields we're
+[2:05:11] working in these are entire you know
+[2:05:13] complex fields in themselves and you you
+[2:05:16] have to sort of keep up to abreast of
+[2:05:18] that but i enjoy it i've always been uh
+[2:05:21] a sort of generalist in a way and that's
+[2:05:24] actually what happened with my games
+[2:05:25] career after chess i i i one of the
+[2:05:28] reasons i stopped playing chess was that
+[2:05:29] i got into computers but also i started
+[2:05:31] realizing there were many other great
+[2:05:32] games out there to play too so
+[2:05:34] i've always been that way inclined
+[2:05:35] multidisciplinary and there's too many
+[2:05:37] interesting things in in the world to
+[2:05:39] spend all your time just on one thing
+[2:05:41] so you mentioned spinoza gotta ask the
+[2:05:43] big
+[2:05:44] ridiculously big question about life
+[2:05:47] what do you think is the meaning of this
+[2:05:48] whole thing
+[2:05:50] uh why are we humans here you've already
+[2:05:53] mentioned that perhaps the universe
+[2:05:55] created us
+[2:05:56] is that why you think we're here
+[2:05:58] to understand how the universe yeah i
+[2:06:00] think my answer to that would be and at
+[2:06:02] least the the life i'm living is to gain
+[2:06:04] and uh to gain and understand the
+[2:06:07] knowledge you know to gain knowledge and
+[2:06:09] understand the universe that's what i
+[2:06:11] think uh i can't see any higher purpose
+[2:06:13] than that if you think back to the
+[2:06:14] classical greeks you know the virtue of
+[2:06:16] gaining knowledge it's uh i think it's
+[2:06:18] that it's one of the few true virtues is
+[2:06:20] to understand um the world around us and
+[2:06:23] the context and humanity better and um
+[2:06:26] and i think if you do that you become
+[2:06:28] more compassionate and more
+[2:06:29] understanding yourself and and more
+[2:06:31] tolerant and all these i think all these
+[2:06:33] other things may flow from that and to
+[2:06:34] me
+[2:06:35] you know understanding the nature of
+[2:06:37] reality that is the biggest question
+[2:06:38] what is going on here is sometimes the
+[2:06:40] colloquial way i say what is really
+[2:06:41] going on here
+[2:06:43] uh it's so mysterious i feel like we're
+[2:06:45] in some huge puzzle and and it's but the
+[2:06:48] world is also seems to be the universe
+[2:06:50] seems to be structured in a way you know
+[2:06:52] why is it structured in a way that
+[2:06:54] science is even possible that you know
+[2:06:56] methods the scientific method works
+[2:06:58] things are repeatable
+[2:06:59] um it feels like it's almost structured
+[2:07:01] in a way to be conducive to gaining
+[2:07:04] knowledge so i feel like and you know
+[2:07:06] why should computers be even possible
+[2:07:07] isn't that amazing that uh computational
+[2:07:10] electronic devices can can can can be
+[2:07:13] possible and they're made of sand our
+[2:07:15] most you know common element that we
+[2:07:16] have you know silicon that on the on the
+[2:07:18] earth's crust they could be made of
+[2:07:20] diamond or something then we would have
+[2:07:21] only had one computer yeah right so it's
+[2:07:24] a lot of things are kind of slightly
+[2:07:25] suspicious to me it sure as heck sounds
+[2:07:27] this puzzle sure sounds like something
+[2:07:29] we talked about earlier what it takes to
+[2:07:31] to design a game
+[2:07:33] that's really fun to play for prolonged
+[2:07:35] periods of time
+[2:07:37] and it does seem like this puzzle like
+[2:07:39] you mentioned the more you learn about
+[2:07:41] it the more you realize how little you
+[2:07:43] know
+[2:07:44] so it humbles you but excites you by the
+[2:07:47] possibility of learning more it's one
+[2:07:49] heck of a one heck of a puzzle we got
+[2:07:51] going on here um so like i mentioned of
+[2:07:54] all the people in the world you're very
+[2:07:57] likely to be the one who creates the agi
+[2:08:00] system
+[2:08:01] um that achieves human level
+[2:08:04] intelligence and goes beyond it so if
+[2:08:06] you got a chance and very well you could
+[2:08:08] be the person that goes into the room
+[2:08:10] with the system and have a conversation
+[2:08:12] maybe you only get to ask one question
+[2:08:15] if you do
+[2:08:16] what question would you ask her
+[2:08:19] i would probably ask um what is the true
+[2:08:22] nature of reality
+[2:08:23] i think that's the question i don't know
+[2:08:24] if i'd understand the answer because
+[2:08:26] maybe it would be 42 or something like
+[2:08:27] that but um that's the question i would
+[2:08:30] ask
+[2:08:32] and then there'll be a deep sigh from
+[2:08:34] the systems like all right how do i
+[2:08:35] explain to the excuse me exactly all
+[2:08:37] right let me i don't have time
+[2:08:40] to explain uh maybe i'll draw you a
+[2:08:42] picture that it is
+[2:08:44] i mean how do you even begin
+[2:08:47] um
+[2:08:48] to answer that question
+[2:08:51] well i think it would um what would you
+[2:08:53] what would you think the answer could
+[2:08:54] possibly look like i think it could it
+[2:08:56] could start looking like
+[2:08:58] uh
+[2:08:59] uh more fundamental explanations of
+[2:09:01] physics would be the beginning you know
+[2:09:03] more careful specification of that
+[2:09:05] taking you walking us through by the
+[2:09:07] hand as to what one would do to maybe
+[2:09:09] prove those things out maybe giving you
+[2:09:11] glimpses of
+[2:09:13] what things you totally missed in the
+[2:09:14] physics of today
+[2:09:16] exactly just here here's glimpses of no
+[2:09:19] like there's a much
+[2:09:20] uh
+[2:09:22] a much more elaborate world or a much
+[2:09:23] simpler world or something
+[2:09:26] a much deeper maybe simpler explanation
+[2:09:29] yes of things right than the standard
+[2:09:31] model of physics which we know doesn't
+[2:09:32] work but we still keep adding to so um
+[2:09:36] and and that's how i think the beginning
+[2:09:37] of an explanation would look and it
+[2:09:39] would start encompassing many of the
+[2:09:40] mysteries that we have wondered about
+[2:09:42] for thousands of years like you know
+[2:09:44] consciousness
+[2:09:45] uh life and gravity all of these things
+[2:09:48] yeah giving us a glimpses of
+[2:09:50] explanations for those things yeah
+[2:09:52] well um
+[2:09:53] damas dear one of the special
+[2:09:56] human beings in this giant puzzle of
+[2:09:58] ours and it's a huge honor that you
+[2:10:00] would take a pause from the bigger
+[2:10:01] puzzle to solve this small puzzle of a
+[2:10:03] conversation with me today it's truly an
+[2:10:05] honor and a pleasure thank you thank you
+[2:10:06] i really enjoyed it thanks lex
+[2:10:08] thanks for listening to this
+[2:10:09] conversation with demas establish to
+[2:10:11] support this podcast please check out
+[2:10:13] our sponsors in the description
+[2:10:15] and now let me leave you with some words
+[2:10:17] from edskar dykstra
+[2:10:20] computer science is no more about
+[2:10:22] computers
+[2:10:23] than astronomy is about telescopes
+[2:10:27] thank you for listening and hope to see
+[2:10:28] you next time
