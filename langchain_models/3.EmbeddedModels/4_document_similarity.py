@@ -23,7 +23,7 @@ query_embedding = embedding.embed_query(query)
 
 scores = cosine_similarity([query_embedding], doc_embeddings)[0]
 
-similarities = list(enumerate(float(score) for score in scores))
+similarities = list(enumerate(scores))
 
 result = sorted(similarities, key=lambda x:x[1])
 

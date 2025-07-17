@@ -8,7 +8,6 @@ llm = HuggingFaceEndpoint(
     task="text-generation"
 )
 
-
 model = ChatHuggingFace(llm=llm)
 
 result = model.invoke("What is the capital of Bangladesh")
