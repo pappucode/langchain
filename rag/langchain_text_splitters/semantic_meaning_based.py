@@ -6,7 +6,7 @@ load_dotenv()
 
 text_splitter = SemanticChunker(
     OpenAIEmbeddings(), breakpoint_threshold_type="standard_deviation",
-    breakpoint_threshold_amount=2
+    breakpoint_threshold_amount=.5
 )
 
 sample = """

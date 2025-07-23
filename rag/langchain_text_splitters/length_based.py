@@ -13,4 +13,4 @@ splitter = CharacterTextSplitter(
 
 result = splitter.split_documents(docs)
 
-print(result[1].page_content)
+print(result[0].page_content)
