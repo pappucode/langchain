@@ -6,7 +6,7 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import OpenAIEmbeddings
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.runnables import Runnable
-from langchain_core.chat_history import ChatMessageHistory
+from langchain_community.chat_message_histories.in_memory import ChatMessageHistory
 from langchain_openai import ChatOpenAI
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.retrieval import create_retrieval_chain
@@ -28,7 +28,7 @@ def build_chain(video_text):
     docs = splitter.create_documents([video_text])
     embeddings = OpenAIEmbeddings()
     vectorstore = Chroma.from_documents(docs, embedding=embeddings)
-    retriever = vectorstore.as_retriever()
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 
     # History-aware retriever
     context_prompt = ChatPromptTemplate.from_messages([
@@ -60,10 +60,10 @@ def build_chain(video_text):
     return memory_wrapper
 
 # --- Streamlit UI ---
-st.title("🎥 YouTube Video Chat (LangChain Modern Version)")
+st.title("Chat with YouTube Video")
 
 video_url = st.text_input("Paste YouTube Video Link:")
-session_id = "user-session"  # Simple static session, can be user ID or UUID for multi-user
+session_id = "user-session"  # Simple static session; use UUID or login info for multi-user apps
 
 if video_url:
     video_id = extract_video_id(video_url)
