@@ -2,8 +2,8 @@ import streamlit as st
 import re
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.runnables import Runnable
 from langchain_community.chat_message_histories.in_memory import ChatMessageHistory
@@ -12,6 +12,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.retrieval import create_retrieval_chain
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+import uuid
+from langchain_core.runnables import RunnableLambda
 
 # --- Helper Functions ---
 def extract_video_id(url):
@@ -36,6 +38,7 @@ def build_chain(video_text):
         MessagesPlaceholder("chat_history"),
         ("human", "{input}"),
     ])
+
     history_aware_retriever = create_history_aware_retriever(ChatOpenAI(), retriever, context_prompt)
 
     # Chain to answer from documents
@@ -45,9 +48,10 @@ def build_chain(video_text):
         ("human", "{input}"),
         ("system", "Context:\n{context}")
     ])
+
     document_chain = create_stuff_documents_chain(ChatOpenAI(), answer_prompt)
 
-    final_chain = create_retrieval_chain(history_aware_retriever, document_chain)
+    final_chain = create_retrieval_chain(history_aware_retriever, document_chain) | RunnableLambda(lambda x: {"output": x["answer"], **x})
 
     # Wrap with memory
     store = {}
@@ -59,11 +63,18 @@ def build_chain(video_text):
     )
     return memory_wrapper
 
+    chat_history = store.get(session_id).messages
+    st.write("Chat History:", chat_history)
+
 # --- Streamlit UI ---
 st.title("Chat with YouTube Video")
 
 video_url = st.text_input("Paste YouTube Video Link:")
-session_id = "user-session"  # Simple static session; use UUID or login info for multi-user apps
+#session_id = "user-session"  # Simple static session; use UUID or login info for multi-user apps
+if "session_id" not in st.session_state:
+    st.session_state.session_id = str(uuid.uuid4())
+
+session_id = st.session_state.session_id
 
 if video_url:
     video_id = extract_video_id(video_url)
@@ -83,3 +94,4 @@ if st.session_state.get("ready", False):
             response = st.session_state.chat_chain.invoke({"input": user_query}, config={"configurable": {"session_id": session_id}})
         st.chat_message("user").write(user_query)
         st.chat_message("assistant").write(response["answer"])
+
