@@ -31,3 +31,6 @@ langchain-pinecone
 
 # Interacting with PDF files
 pypdf
+
+# Streamlit 
+streamlit
